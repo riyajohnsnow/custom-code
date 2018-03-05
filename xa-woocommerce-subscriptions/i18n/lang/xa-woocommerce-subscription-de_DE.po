@@ -1,0 +1,3430 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-09-20 13:31+0530\n"
+"PO-Revision-Date: 2017-09-20 13:33+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;__e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: hf-base-functions.php:126
+msgid ""
+"Invalid date. The date must be a string and of the format: \"Y-m-d H:i:s\"."
+msgstr ""
+"Ungültiges Datum. Das Datum muss eine Zeichenfolge in folgendem Format sein: "
+"„Y-m-d H:i:s“."
+
+#: hf-base-functions.php:128
+msgid "Subscription start date must be before current day."
+msgstr "Abonnement Start-Datum muss vor heute sein."
+
+#: hf-base-functions.php:132
+msgid "Invalid subscription customer_id."
+msgstr "Ungültige Kundennummer für das Abonnement."
+
+#: hf-base-functions.php:136
+msgid "Invalid subscription billing period given."
+msgstr "Ungültiges Abrechnungsintervall für Abonnement vorgegeben."
+
+#: hf-base-functions.php:140
+msgid ""
+"Invalid subscription billing interval given. Must be an integer greater than "
+"0."
+msgstr ""
+"Ungültiges Abrechnungsintervall für Abonnement eingegeben. Muss eine ganze "
+"Zahl grösser als 0 sein."
+
+#: hf-base-functions.php:148
+msgid "%b %d, %Y @ %I:%M %p"
+msgstr "%b %d, %Y @ %I:%M %p"
+
+#: hf-base-functions.php:149
+#, php-format
+msgid "Subscription &ndash; %s"
+msgstr "Abonnement &ndash; %s"
+
+#: hf-base-functions.php:163
+msgid "Invalid subscription status given."
+msgstr "Falscher Abonnementstatus übergeben."
+
+#: hf-base-functions.php:190 includes/common/subscriptions-manager.php:596
+msgid "Pending"
+msgstr "Wartendes Abonnement erstellt."
+
+#: hf-base-functions.php:191 includes/common/subscriptions-manager.php:587
+msgid "Active"
+msgstr "Auf ein aktives Abonnement beschränken"
+
+#: hf-base-functions.php:192
+msgid "On hold"
+msgstr "In Warteschleife"
+
+#: hf-base-functions.php:193 includes/common/subscriptions-manager.php:590
+msgid "Cancelled"
+msgstr "Nicht gekündigt"
+
+#: hf-base-functions.php:194
+msgid "Switched"
+msgstr "Geändert"
+
+#: hf-base-functions.php:195 includes/common/subscriptions-manager.php:593
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: hf-base-functions.php:196
+msgid "Pending Cancellation"
+msgstr "Ausstehende Kündigung"
+
+#: hf-base-functions.php:205
+msgid "Can not get status name. Status is not a string."
+msgstr "Erhalte keine Statusnamen. Status ist keine Zeichenfolge."
+
+#: hf-base-functions.php:217
+msgid "Can not get address type display name. Address type is not a string."
+msgstr "Erhalte keine Adresstypennamen. Adresstyp ist keine Zeichenfolge."
+
+#: hf-base-functions.php:221
+msgid "Shipping Address"
+msgstr "Lieferadresse"
+
+#: hf-base-functions.php:222
+msgid "Billing Address"
+msgstr "Rechnungsadresse"
+
+#: hf-base-functions.php:232 includes/admin/subscription-management.php:305
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: hf-base-functions.php:233 includes/admin/subscription-management.php:306
+msgid "Next Payment"
+msgstr "Nächste Zahlung"
+
+#: hf-base-functions.php:234 includes/admin/subscription-management.php:307
+#: templates/myaccount/view-subscription.php:29
+msgid "Last Order Date"
+msgstr "Letztes Bestelldatum"
+
+#: hf-base-functions.php:235
+msgid "Cancelled Date"
+msgstr "Kündigungsdatum"
+
+#: hf-base-functions.php:236 includes/admin/subscription-management.php:308
+#: templates/myaccount/view-subscription.php:31
+msgid "End Date"
+msgstr "Enddatum"
+
+#: hf-base-functions.php:256
+msgid "Date type is not a string."
+msgstr "Der Datentyp ist kein String."
+
+#: hf-base-functions.php:258
+msgid "Date type can not be an empty string."
+msgstr "Datumstyp kann keine leere Zeichenfolge sein."
+
+#: hf-woocommerce-subscriptions.php:45
+msgid "HF Subscription Plugin not activated. WooCommerce is required."
+msgstr "HF-Abonnement-Plugin nicht aktiviert. WooCommerce ist erforderlich."
+
+#: hf-woocommerce-subscriptions.php:147 hf-woocommerce-subscriptions.php:160
+#: includes/admin/subscriptions-admin.php:485
+msgid "HF Subscriptions"
+msgstr "HF Abonnements"
+
+#: hf-woocommerce-subscriptions.php:148
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:36
+#: includes/admin/subscription-management.php:302
+msgid "Subscription"
+msgstr ""
+"Das Abonnement für %s wurde ausgesetzt. Sie können das Abonnement von Ihrem "
+"Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
+
+#: hf-woocommerce-subscriptions.php:149
+msgid "Add Subscription"
+msgstr "Abo hinzufügen"
+
+#: hf-woocommerce-subscriptions.php:150
+msgid "Add New Subscription"
+msgstr "Neue Mitgliedschaft hinzufügen"
+
+#: hf-woocommerce-subscriptions.php:151
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "Edit"
+msgstr "Ticketsfeld"
+
+#: hf-woocommerce-subscriptions.php:152
+msgid "Edit Subscription"
+msgstr "Abonnement"
+
+#: hf-woocommerce-subscriptions.php:153
+msgid "New Subscription"
+msgstr "Wähle einen neues Abonnement."
+
+#: hf-woocommerce-subscriptions.php:154 hf-woocommerce-subscriptions.php:155
+msgid "View Subscription"
+msgstr "Abonnement ansehen"
+
+#: hf-woocommerce-subscriptions.php:156
+msgid "Search Subscriptions"
+msgstr "Abos suchen"
+
+#: hf-woocommerce-subscriptions.php:158
+msgid "No Subscriptions found in trash"
+msgstr "Keine Abonnemente im Papierkorb"
+
+#: hf-woocommerce-subscriptions.php:159
+msgid "Parent Subscriptions"
+msgstr "Übergeordnete Abonnemente"
+
+#: hf-woocommerce-subscriptions.php:162
+msgid "This is where subscriptions are stored."
+msgstr "Hier werden Abonnement gespeichert."
+
+#: hf-woocommerce-subscriptions.php:192
+msgid "No Subscriptions found"
+msgstr "Keine Abonnemente gefunden"
+
+#: hf-woocommerce-subscriptions.php:194
+msgid "Subscriptions will appear here once purchased by a customer."
+msgstr ""
+"Abonnements erscheinen hier, sobald sie von einem Kunden gekauft wurden."
+
+#: hf-woocommerce-subscriptions.php:195
+#, php-format
+msgid "%sLearn more about managing subscriptions &raquo;%s"
+msgstr "%sErfahren Sie mehr über die Verwaltung von Abonnements &raquo;%s"
+
+#: hf-woocommerce-subscriptions.php:196
+#, php-format
+msgid "%sAdd a subscription product &raquo;%s"
+msgstr "%sEin Abonnement hinzufügen &raquo;%s"
+
+#: hf-woocommerce-subscriptions.php:273
+msgid ""
+"A subscription renewal has been removed from your cart. Multiple "
+"subscriptions can not be purchased at the same time."
+msgstr ""
+"Eine Abonnementerneuerung wurde aus Ihrem Warenkorb entfernt. Mehrere "
+"Abonnements können nicht zur gleichen Zeit erworben werden."
+
+#: hf-woocommerce-subscriptions.php:278
+msgid ""
+"A subscription has been removed from your cart. Due to payment gateway "
+"restrictions, different subscription products can not be purchased at the "
+"same time."
+msgstr ""
+"Ein Abonnement wurde aus Ihrem Warenkorb entfernt. Aufgrund von "
+"Einschränkungen bei der Zahlungsschnittstelle können verschiedene Abonnement-"
+"Produkte nicht zur gleichen Zeit erworben werden."
+
+#: hf-woocommerce-subscriptions.php:283
+msgid ""
+"A subscription has been removed from your cart. Products and subscriptions "
+"can not be purchased at the same time."
+msgstr ""
+"Ein Abonnement wurde aus dem Warenkorb entfernt. Einzelne Artikel und "
+"Abonnements können nicht zur gleichen Zeit gekauft werden."
+
+#: hf-woocommerce-subscriptions.php:322 hf-woocommerce-subscriptions.php:324
+#: includes/admin/subscriptions-admin.php:534
+#: includes/admin/subscriptions-admin.php:544
+#: includes/subscriptions-product.php:36 includes/subscriptions-product.php:38
+#: includes/wc-dependant/product-subscription-variation.php:48
+#: includes/wc-dependant/product-subscription-variation.php:50
+#: includes/wc-dependant/product-subscription.php:33
+#: includes/wc-dependant/product-subscription.php:35
+#: includes/wc-dependant/product-variable-subscription.php:33
+#: includes/wc-dependant/product-variable-subscription.php:35
+msgid "Subscribe"
+msgstr "Anmelden"
+
+#: hf-woocommerce-subscriptions.php:351 hf-woocommerce-subscriptions.php:364
+#, php-format
+msgid "%sth"
+msgstr "%s."
+
+#: hf-woocommerce-subscriptions.php:355
+#, php-format
+msgid "%sst"
+msgstr "%ste"
+
+#: hf-woocommerce-subscriptions.php:358
+#, php-format
+msgid "%snd"
+msgstr "%ste"
+
+#: hf-woocommerce-subscriptions.php:361
+#, php-format
+msgid "%srd"
+msgstr "%ste"
+
+#: hf-woocommerce-subscriptions.php:379
+msgid "Variable Subscription"
+msgstr "Variables Abonnement"
+
+#: hf-woocommerce-subscriptions.php:496
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: hf-woocommerce-subscriptions.php:497
+msgid "Docs"
+msgstr "Doks"
+
+#: hf-woocommerce-subscriptions.php:498
+msgid "Support"
+msgstr "Unterstützen"
+
+#: includes/admin/meta-boxes/related-orders-row.php:21
+#: includes/admin/subscription-management.php:478
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/admin/meta-boxes/related-orders-row.php:24
+msgid "Unpublished"
+msgstr "Nicht veröffentlicht"
+
+#: includes/admin/meta-boxes/subscription-data-meta-box.php:120
+#, php-format
+msgid "Gateway ID: [%s]"
+msgstr "Gateway-ID: [%s]"
+
+#: includes/admin/meta-boxes/subscription-data-meta-box.php:270
+#, php-format
+msgid "Error updating some information: %s"
+msgstr "Fehler beim Aktualisieren einiger Informationen: %s"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:56
+msgid "Resubscribed Subscription"
+msgstr "Wiederaufgenommenes Abonnement"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:64
+msgid "Initial Subscription"
+msgstr "Erstbestellung Abonnement"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:72
+msgid "Parent Order"
+msgstr "Erstbestellung"
+
+#: includes/admin/meta-boxes/subscription-related-orders-meta-box.php:81
+msgid "Renewal Order"
+msgstr "Rechnung für Abonnement-Verlängerung {order_number}"
+
+#: includes/admin/meta-boxes/subscription-scheduler.php:17
+msgid "Recurring:"
+msgstr "Wiederkehrend:"
+
+#: includes/admin/meta-boxes/subscription-scheduler.php:26
+msgid "Billing Period"
+msgstr "Rechnungszeitraum"
+
+#: includes/admin/subscription-management.php:162
+msgid "Activate"
+msgstr "IMAP aktivieren"
+
+#: includes/admin/subscription-management.php:163
+msgid "Put on-hold"
+msgstr ""
+"Fehler beim Aktualisieren des Abonnements-Status nachdem die Bestellung #"
+"%1$s auf wartend gesetzt wurde: %2$s"
+
+#: includes/admin/subscription-management.php:164
+#: includes/admin/subscription-management.php:345
+#: includes/common/subscriptions-manager.php:708
+#: includes/user-functions.php:204
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/admin/subscription-management.php:229
+msgid "Subscription status changed by bulk edit:"
+msgstr "Abonnementstatus geändert durch Multi-Bearbeitung:"
+
+#: includes/admin/subscription-management.php:301
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:120
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/subscription-management.php:303
+msgid "Items"
+msgstr "Artikel"
+
+#: includes/admin/subscription-management.php:304
+msgid "Total"
+msgstr "Summe"
+
+#: includes/admin/subscription-management.php:309
+msgid "Orders"
+msgstr "Beteiligungen"
+
+#: includes/admin/subscription-management.php:343
+#: includes/user-functions.php:191
+msgid "Reactivate"
+msgstr ""
+"Der Lizenzschlüssel für %s ist abgelaufen. Sie können einen Lizenzschlüssel "
+"von Ihrem Konto <a href=\"%s\" target=\"_blank\"> Dashboard </a> "
+"reaktivieren oder zu kaufen."
+
+#: includes/admin/subscription-management.php:344
+msgid "Suspend"
+msgstr "Suspendieren"
+
+#: includes/admin/subscription-management.php:346
+#: includes/admin/subscription-management.php:361
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: includes/admin/subscription-management.php:347
+#: includes/admin/subscription-management.php:365
+msgid "Delete Permanently"
+msgstr "Endgültig löschen"
+
+#: includes/admin/subscription-management.php:359
+msgid "Restore this item from the Trash"
+msgstr "Produkt aus dem Papierkorb wiederherstellen"
+
+#: includes/admin/subscription-management.php:359
+#: includes/subscriptions-product.php:394
+msgid "Restore"
+msgstr "Sicherung & Wiederherstellung Warnung"
+
+#: includes/admin/subscription-management.php:361
+msgid "Move this item to the Trash"
+msgstr "In den Papierkorb legen"
+
+#: includes/admin/subscription-management.php:365
+msgid "Delete this item permanently"
+msgstr "Dieses Element dauerhaft löschen"
+
+#: includes/admin/subscription-management.php:371
+msgid "Cancel Now"
+msgstr "Jetzt abbrechen"
+
+#: includes/admin/subscription-management.php:399
+msgid "Billing:"
+msgstr "Fragen Sie Billing Address in Stripe"
+
+#: includes/admin/subscription-management.php:403
+#, php-format
+msgid "Email: %s"
+msgstr "E-Mail Adresse: %s"
+
+#: includes/admin/subscription-management.php:407
+#, php-format
+msgid "Tel: %s"
+msgstr "Tel: %s"
+
+#: includes/admin/subscription-management.php:433
+#, php-format
+msgid "%1$s#%2$s%3$s for %4$s"
+msgstr "%1$s#%2$s%3$s für %4$s"
+
+#: includes/admin/subscription-management.php:435
+msgid "Show more details"
+msgstr "Mehr Details anzeigen"
+
+#: includes/admin/subscription-management.php:465
+#: templates/myaccount/subscriptions.php:44
+#, php-format
+msgid "Via %s"
+msgstr "Via %s"
+
+#: includes/admin/subscription-management.php:692
+#: includes/admin/subscription-management.php:695
+#: includes/admin/subscription-management.php:697
+msgid "Subscription updated."
+msgstr "Abonnement aktualisiert."
+
+#: includes/admin/subscription-management.php:693
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:455
+msgid "Custom field updated."
+msgstr "Benutzerdefinierte Felder aktualisiert."
+
+#: includes/admin/subscription-management.php:694
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:456
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertes Feld gelöscht."
+
+#: includes/admin/subscription-management.php:696
+#, php-format
+msgid "Subscription restored to revision from %s"
+msgstr "Abonnement von %s nach Revision wieder hergestellt"
+
+#: includes/admin/subscription-management.php:698
+msgid "Subscription saved."
+msgstr "Abonnement gespeichert."
+
+#: includes/admin/subscription-management.php:699
+msgid "Subscription submitted."
+msgstr "Abonnement übermittelt."
+
+#: includes/admin/subscription-management.php:700
+#, php-format
+msgid "Subscription scheduled for: %1$s."
+msgstr "Abonnement geplant für: %1$s."
+
+#: includes/admin/subscription-management.php:700
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:462
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/subscription-management.php:701
+msgid "Subscription draft updated."
+msgstr "Abonnement aktualisiert."
+
+#: includes/admin/subscription-meta-boxes.php:34
+msgid "Subscription Data"
+msgstr "Details des Abonnements"
+
+#: includes/admin/subscription-meta-boxes.php:35
+msgid "Billing Schedule Data"
+msgstr "Abrechnungszeitplan"
+
+#: includes/admin/subscription-meta-boxes.php:37
+#: includes/admin/subscription-meta-boxes.php:40
+msgid "Related Orders"
+msgstr "Zugehörige Bestellung(en)"
+
+#: includes/admin/subscription-meta-boxes.php:66
+msgid "Please enter a start date in the past."
+msgstr "Bitte geben Sie ein Startdatum in der Vergangenheit an."
+
+#: includes/admin/subscription-meta-boxes.php:67
+msgid "Please enter a date at least one hour into the future."
+msgstr "Das Datum muss mindestens eine Stunde in der Zukunft liegen."
+
+#: includes/admin/subscription-meta-boxes.php:68
+msgid "Please enter a date after the trial end."
+msgstr "Bitte geben Sie ein Datum nach dem Testende ein."
+
+#: includes/admin/subscription-meta-boxes.php:69
+msgid "Please enter a date after the start date."
+msgstr "Bitte geben Sie ein Datum älter als das Startdatum ein."
+
+#: includes/admin/subscription-meta-boxes.php:70
+msgid "Please enter a date after the next payment."
+msgstr "Bitte gib ein Datum nach der nächsten Zahlung ein."
+
+#: includes/admin/subscription-meta-boxes.php:71
+msgid ""
+"Are you sure you want to process a renewal?\n"
+"\n"
+"This will charge the customer and email them the renewal order (if emails "
+"are enabled)."
+msgstr ""
+"Bist du sicher, dass du dieses Abo verlängern willst?\n"
+"\n"
+"Dem Kunden wird eine Rechnung über diese Verlängerungs-Bestellung geschickt "
+"(wenn E-Mails aktiviert sind)."
+
+#: includes/admin/subscription-meta-boxes.php:78
+msgid ""
+"Are you sure you want to retry payment for this renewal order?\n"
+"\n"
+"This will attempt to charge the customer and send renewal order emails."
+msgstr ""
+"Sind Sie sicher, dass eine Bezahlung der Aboverlängerung nochmals versucht "
+"werden soll?\n"
+"\n"
+"Damit wird dem Kunden eine Rechnung gestellt und eine Verlängerungs-E-Mail "
+"versandt (sofern E-Mails aktiviert sind)."
+
+#: includes/admin/subscription-meta-boxes.php:107
+msgid "Process renewal order action requested by admin."
+msgstr "Verlängerung der Bestellung durch Admin erfolgt."
+
+#: includes/admin/subscription-meta-boxes.php:118
+msgid "Create pending renewal order requested by admin action."
+msgstr ""
+"Bestelle einen wartenden Verlängerungsauftrag auf Anfrage des Administrators."
+
+#: includes/admin/subscriptions-admin.php:72
+msgid "Simple subscription"
+msgstr "Einfaches Abonnement"
+
+#: includes/admin/subscriptions-admin.php:73
+msgid "Variable subscription"
+msgstr "Variables Abonnement"
+
+#: includes/admin/subscriptions-admin.php:324
+#, php-format
+msgid ""
+"Unable to change subscription status to \"%s\". Please assign a customer to "
+"the subscription to activate it."
+msgstr ""
+"Abonnementstatus kann nicht auf „%s“ geändert werden. Bitte weisen Sie dem "
+"Abonnement einen Kunden zu, um es zu aktivieren."
+
+#: includes/admin/subscriptions-admin.php:378
+msgid ""
+"Trashing this order will also trash the subscriptions purchased with the "
+"order."
+msgstr ""
+"Wenn Sie diese Bestellung löschen, wird auch das damit erworbene Abonnement "
+"gelöscht."
+
+#: includes/admin/subscriptions-admin.php:390
+msgid "Enter the new period, either day, week, month or year:"
+msgstr "Gib die neue Periode ein, entweder Tag, Woche, Monat oder Jahr:"
+
+#: includes/admin/subscriptions-admin.php:391
+msgid "Enter a new length (e.g. 5):"
+msgstr "Gebe eine neue Dauer an (z.B. 5):"
+
+#: includes/admin/subscriptions-admin.php:392
+msgid ""
+"Enter a new interval as a single number (e.g. to charge every 2nd month, "
+"enter 2):"
+msgstr ""
+"Geben Sie ein neues Intervall als eine einzelne Zahl ein (z.B. um jeden 2. "
+"Monat abzurechnen geben Sie eine 2 ein):"
+
+#: includes/admin/subscriptions-admin.php:396
+msgid ""
+"You are about to trash one or more orders which contain a subscription.\n"
+"\n"
+"Trashing the orders will also trash the subscriptions purchased with these "
+"orders."
+msgstr ""
+"Du bist dabei, eine oder mehrere Bestellungen, die ein Abonnement enthalten "
+"in den Papierkorb zu verschieben.\n"
+"Dadurch werden auch die mit diesen Bestellungen zusammenhängenden "
+"Abonnements gelöscht."
+
+#: includes/admin/subscriptions-admin.php:413
+msgid ""
+"Warning: Deleting a user will also delete the user's subscriptions. The "
+"user's orders will remain but be reassigned to the 'Guest' user.\n"
+"\n"
+"Do you want to continue to delete this user and any associated subscriptions?"
+msgstr ""
+"Achtung: Beim Löschen eines Benutzers werden auch die Abonnements des "
+"Benutzers gelöscht. Die Befehle des Benutzers bleiben erhalten, aber dem "
+"Benutzer 'Gast' zuzuordnen.\n"
+"\n"
+"Möchten Sie diesen Benutzer und alle damit verbundenen Abonnements löschen?"
+
+#: includes/admin/subscriptions-admin.php:432
+msgid "Active subscriber"
+msgstr "Aktiviertes Abonnement?"
+
+#: includes/admin/subscriptions-admin.php:453
+#: includes/admin/subscriptions-admin.php:514
+#: includes/admin/subscriptions-admin.php:524
+#: includes/frontend/subscription-account-view.php:69
+#: includes/frontend/subscription-account-view.php:82
+#: includes/frontend/subscription-account-view.php:86
+msgid "Subscriptions"
+msgstr "Abonnement"
+
+#: includes/admin/subscriptions-admin.php:503
+msgid "Manage Text"
+msgstr "Text verwalten"
+
+#: includes/admin/subscriptions-admin.php:509
+msgid "My Account Tab Title"
+msgstr "Mein Konto Tab Titel"
+
+#: includes/admin/subscriptions-admin.php:510
+msgid "My Account Tab Title for subscription listing page."
+msgstr "Mein Konto-Tab Titel für die Abonnementliste."
+
+#: includes/admin/subscriptions-admin.php:519
+msgid "My Account Tab Text"
+msgstr "Mein Konto Tab Text"
+
+#: includes/admin/subscriptions-admin.php:520
+msgid "My Account Tab Text for subscription listing page."
+msgstr "Mein Konto Tab Text für Abonnement Liste Seite."
+
+#: includes/admin/subscriptions-admin.php:529
+msgid "Add to Cart Button Text"
+msgstr "Schaltflächentext für In den Warenkorb"
+
+#: includes/admin/subscriptions-admin.php:530
+msgid "Add to Cart Button Text on product page."
+msgstr "In den Warenkorb Button Text auf Produktseite."
+
+#: includes/admin/subscriptions-admin.php:539
+msgid "Place Order Button Text"
+msgstr "Place Order Button Text"
+
+#: includes/admin/subscriptions-admin.php:540
+msgid ""
+"Place Order Button Text in checkout Page when an order contains a "
+"subscription."
+msgstr ""
+"Platzieren Sie den Auftragstext Text in der Kasse Seite, wenn ein Auftrag "
+"ein Abonnement enthält."
+
+#: includes/admin/subscriptions-admin.php:551
+msgid "Other"
+msgstr "Sonstiges"
+
+#: includes/admin/subscriptions-admin.php:558
+msgid "Allow Mixed Checkout"
+msgstr "Mixed Checkout zulassen"
+
+#: includes/admin/subscriptions-admin.php:559
+msgid ""
+"Allow subscription products and normal products to be purchased together."
+msgstr ""
+"Erlaube Abonnementprodukte und normale Produkte, die zusammen gekauft werden "
+"sollen."
+
+#: includes/admin/subscriptions-admin.php:609
+#, php-format
+msgid "We can't find a subscription with ID #%d. Perhaps it was deleted?"
+msgstr ""
+"Wir können kein Abonnement mit der ID #%d finden. Vielleicht wurde es "
+"gelöscht?"
+
+#: includes/admin/subscriptions-admin.php:687
+msgid "HF_DEBUG"
+msgstr "HF_DEBUG"
+
+#: includes/admin/subscriptions-admin.php:688
+msgid "Yes"
+msgstr "Dieses Feld muss ausgefüllt werden."
+
+#: includes/admin/subscriptions-admin.php:688
+msgid "No"
+msgstr "Nein"
+
+#: includes/admin/subscriptions-admin.php:698
+msgid "This section shows any information about Hikeforce Subscriptions."
+msgstr "Dieser Abschnitt zeigt alle Informationen zu Subscriptions."
+
+#: includes/admin/subscriptions-admin.php:732
+msgid "Auto Recurring Payments"
+msgstr "Wiederkehrende Zahlungen"
+
+#: includes/admin/subscriptions-admin.php:772
+msgid "Subscription items can no longer be edited."
+msgstr "Abonnementpositionen können nicht mehr bearbeitet werden."
+
+#: includes/admin/subscriptions-admin.php:775
+msgid ""
+"This subscription is no longer editable because the payment gateway does not "
+"allow modification of recurring amounts."
+msgstr ""
+"Dieses Abonnement ist nicht mehr bearbeitbar, da das Zahlungs-Gateway keine "
+"Änderung der wiederkehrenden Beträge zulässt."
+
+#: includes/admin/subscriptions-admin.php:787
+#, php-format
+msgid ""
+"No payment gateways capable of processing automatic subscription payments "
+"are enabled. If you would like to process automatic payments, we recommend "
+"the %1$sfree Stripe extension%2$s."
+msgstr ""
+"Es sind keine Zahlungsanbieter für die automatischen Abonnementzahlungen "
+"aktiviert. Um automatische Zahlungen zu verarbeiten, empfehlen wir die "
+"%1$skostenlose Stripe Erweiterung%2$s."
+
+#: includes/admin/subscriptions-admin.php:792
+msgid "Recurring Payments"
+msgstr "Wiederkehrende Zahlungen"
+
+#: includes/common/account-payment-tokens.php:84
+#, php-format
+msgid ""
+"Payment method meta updated after customer deleted a token from their My "
+"Account page. Payment meta changed from %1$s to %2$s"
+msgstr ""
+"Zahlungsart geändert von „%1$s“ nach „%2$s“ durch den Abonnenten auf seiner "
+"Konto-Seite"
+
+#: includes/common/account-payment-tokens.php:126
+#, php-format
+msgid "%s ending in %s"
+msgstr "%s ﻿endet in %s"
+
+#: includes/common/add-remove-item.php:39
+#, php-format
+msgid "Subscription #%d does not exist."
+msgstr "Abonnement #%d ist nicht vorhanden."
+
+#: includes/common/add-remove-item.php:71
+#, php-format
+msgid "Customer added \"%1$s\" (Product ID: #%2$d) via the My Account page."
+msgstr "Kunde fügte „%1$s“ (Produkt-ID: #%2$d) über sein Kundenkonto hinzu."
+
+#: includes/common/add-remove-item.php:73
+msgid "Your request to undo your previous action was unsuccessful."
+msgstr ""
+"Ihr Versuch, die vorherige Aktion rückgängig zu machen, war nicht "
+"erfolgreich."
+
+#: includes/common/add-remove-item.php:85
+#, php-format
+msgid "Customer removed \"%1$s\" (Product ID: #%2$d) via the My Account page."
+msgstr "Kunde löschte „%1$s“ (Produkt-ID: #%2$d) über sein Kundenkonto."
+
+#: includes/common/add-remove-item.php:86
+#, php-format
+msgid ""
+"You have successfully removed \"%1$s\" from your subscription. %2$sUndo?%3$s"
+msgstr ""
+"Sie haben erfolgreich \"%1$s\" von Ihrem Abonnement entfernt. %2$sRückgängig "
+"machen?%3$s"
+
+#: includes/common/add-remove-item.php:103
+#: includes/common/user-change-status-handler.php:76
+msgid "Security error. Please contact us if you need assistance."
+msgstr ""
+"Sicherheitsfehler. Bitte kontaktieren Sie uns, wenn Sie Hilfe benötigen."
+
+#: includes/common/add-remove-item.php:105
+msgid "You cannot modify a subscription that does not belong to you."
+msgstr "Sie können kein Abonnement ändern, welches nicht Ihnen gehört."
+
+#: includes/common/add-remove-item.php:107
+msgid "You cannot remove an item that does not exist. "
+msgstr "Sie können keinen Artikel entfernen, der nicht existiert."
+
+#: includes/common/add-remove-item.php:109
+msgid ""
+"The item was not removed because this Subscription's payment method does not "
+"support removing an item."
+msgstr ""
+"Der Artikel wurde nicht entfernt, da die Zahlungsmethode dieses Abonnements "
+"dies nicht unterstützt."
+
+#: includes/common/cached-data-manager.php:124
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: includes/common/cart-initial-payment.php:36
+#: includes/common/cart-renewal.php:91
+msgid "That doesn't appear to be your order."
+msgstr "Das scheint nicht Deine Bestellung zu sein."
+
+#: includes/common/cart-renewal.php:113
+msgid "Complete checkout to renew your subscription."
+msgstr "Schließen Sie die Bestellung ab, um Ihr Abonnement zu verlängern."
+
+#: includes/common/cart-renewal.php:185
+#, php-format
+msgid ""
+"The %s product has been deleted and can no longer be renewed. Please choose "
+"a new product or contact us for assistance."
+msgstr ""
+"Das %s Produkt wurde gelöscht und kann nicht mehr verlängert werden. Bitte "
+"wählen Sie ein neues Produkt oder kontaktieren Sie uns."
+
+#: includes/common/cart-resubscribe.php:41
+msgid "There was an error with your request to resubscribe. Please try again."
+msgstr ""
+"Es gab einen Fehler mit Ihrem Antrag zur Wiederaufnahme vom Abo. Bitte "
+"versuchen Sie es erneut."
+
+#: includes/common/cart-resubscribe.php:44
+msgid "That subscription does not exist. Has it been deleted?"
+msgstr "Dieses Abonnement ist nicht vorhanden. Wurde es gelöscht?"
+
+#: includes/common/cart-resubscribe.php:47
+#: includes/common/cart-resubscribe.php:95
+#: includes/common/user-change-status-handler.php:80
+msgid "That doesn't appear to be one of your subscriptions."
+msgstr "Das scheint nicht eines Ihrer Abonnements zu sein."
+
+#: includes/common/cart-resubscribe.php:50
+msgid ""
+"You can not resubscribe to that subscription. Please contact us if you need "
+"assistance."
+msgstr ""
+"Sie können dieses Abonnement leider nicht wiederaufnehmen. Bitte "
+"kontaktieren Sie uns, wenn Sie Hilfe benötigen."
+
+#: includes/common/cart-resubscribe.php:58
+#: includes/common/cart-resubscribe.php:85
+msgid "Complete checkout to resubscribe."
+msgstr ""
+"Bitte schliesse Deinen Einkauf ab, um das Abonnement wiederaufzunehmen."
+
+#: includes/common/cart-resubscribe.php:204
+#, php-format
+msgid "Customer resubscribed in order #%s"
+msgstr "Kunde hat mit Bestellung #%s Abonnement wieder aufgenommen"
+
+#: includes/common/email_notification/cancelled-subscription.php:13
+msgid "Cancelled Subscription"
+msgstr "Mitgliedschaft abgebrochen"
+
+#: includes/common/email_notification/cancelled-subscription.php:14
+msgid ""
+"Cancelled Subscription emails are sent when a customer's subscription is "
+"cancelled (either by a store manager, or the customer)."
+msgstr ""
+"E-Mails für stornierte Abonnements werden verschickt, wenn ein Abonnement "
+"durch den Abonnenten oder durch den Shop Manager storniert wurde."
+
+#: includes/common/email_notification/cancelled-subscription.php:16
+msgid "Subscription Cancelled"
+msgstr "Mitgliedschaft gekündigt"
+
+#: includes/common/email_notification/cancelled-subscription.php:17
+#, php-format
+msgid "[%s] Subscription Cancelled"
+msgstr "[%s] Abonnement gekündigt"
+
+#: includes/common/email_notification/cancelled-subscription.php:80
+#: includes/common/email_notification/expired-subscription.php:87
+#: includes/common/email_notification/on-hold-subscription.php:86
+#: includes/common/email_notification/renewal-invoice.php:129
+msgid "Enable/Disable"
+msgstr "Aktivieren/Deaktivieren"
+
+#: includes/common/email_notification/cancelled-subscription.php:82
+#: includes/common/email_notification/expired-subscription.php:89
+#: includes/common/email_notification/on-hold-subscription.php:88
+#: includes/common/email_notification/renewal-invoice.php:131
+msgid "Enable this email notification"
+msgstr "Diese E-Mail-Benachrichtigung aktivieren"
+
+#: includes/common/email_notification/cancelled-subscription.php:86
+#: includes/common/email_notification/expired-subscription.php:93
+#: includes/common/email_notification/on-hold-subscription.php:92
+msgid "Recipient(s)"
+msgstr "Empfänger"
+
+#: includes/common/email_notification/cancelled-subscription.php:88
+#: includes/common/email_notification/expired-subscription.php:95
+#: includes/common/email_notification/on-hold-subscription.php:94
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Empfänger (mit Komma getrennt) eingeben. Standardeinstellungen <code>%s</"
+"code>."
+
+#: includes/common/email_notification/cancelled-subscription.php:93
+#: includes/common/email_notification/expired-subscription.php:100
+#: includes/common/email_notification/on-hold-subscription.php:99
+msgid "Subject"
+msgstr "Thema"
+
+#: includes/common/email_notification/cancelled-subscription.php:95
+#: includes/common/email_notification/expired-subscription.php:102
+#: includes/common/email_notification/on-hold-subscription.php:101
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Dies bestimmt den E-Mail-Betreff. Leer lassen für Standard-Betreff: <code>"
+"%s</code>."
+
+#: includes/common/email_notification/cancelled-subscription.php:100
+#: includes/common/email_notification/expired-subscription.php:107
+#: includes/common/email_notification/on-hold-subscription.php:106
+msgid "Email Heading"
+msgstr "Kopfzeile"
+
+#: includes/common/email_notification/cancelled-subscription.php:102
+#: includes/common/email_notification/expired-subscription.php:109
+#: includes/common/email_notification/on-hold-subscription.php:108
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Hier legen Sie die Kopfzeile der E-Mail Benachrichtigung fest. Leer lassen "
+"für die Standardkopfzeile: <code>%s</code>."
+
+#: includes/common/email_notification/cancelled-subscription.php:107
+#: includes/common/email_notification/expired-subscription.php:114
+#: includes/common/email_notification/on-hold-subscription.php:113
+msgid "Email type"
+msgstr "Email-Typ"
+
+#: includes/common/email_notification/cancelled-subscription.php:109
+#: includes/common/email_notification/expired-subscription.php:116
+#: includes/common/email_notification/on-hold-subscription.php:115
+msgid "Choose which format of email to send."
+msgstr "Format für E-Mail-Versand auswählen."
+
+#: includes/common/email_notification/cancelled-subscription.php:113
+#: includes/common/email_notification/expired-subscription.php:120
+#: includes/common/email_notification/on-hold-subscription.php:119
+msgid "Plain text"
+msgstr "Unformatierter Text"
+
+#: includes/common/email_notification/cancelled-subscription.php:114
+#: includes/common/email_notification/expired-subscription.php:121
+#: includes/common/email_notification/on-hold-subscription.php:120
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/common/email_notification/cancelled-subscription.php:115
+#: includes/common/email_notification/expired-subscription.php:122
+#: includes/common/email_notification/on-hold-subscription.php:121
+msgid "Multipart"
+msgstr "Mehrteilig"
+
+#: includes/common/email_notification/completed-renewal-order.php:14
+msgid "Completed Renewal Order"
+msgstr "Bestellung der Verlängerung abgeschlossen"
+
+#: includes/common/email_notification/completed-renewal-order.php:15
+msgid ""
+"Renewal order complete emails are sent to the customer when a subscription "
+"renewal order is marked complete and usually indicates that the item for "
+"that renewal period has been shipped."
+msgstr ""
+"E-Mail an den Kunden, wenn eine Abo-Verlängerung als \"Fertig\" markiert "
+"wurde und der Artikel für den Verlängerungszeitraum versendet wurde."
+
+#: includes/common/email_notification/completed-renewal-order.php:18
+msgid "Your renewal order is complete"
+msgstr "Deine Abo-Verlängerung wurde fertiggestellt"
+
+#: includes/common/email_notification/completed-renewal-order.php:19
+#, php-format
+msgid "Your %1$s renewal order from %2$s is complete"
+msgstr "Ihre%1$s Abo-Verlängerung vom %2$s ist komplett"
+
+#: includes/common/email_notification/completed-renewal-order.php:25
+msgid "Your subscription renewal order is complete - download your files"
+msgstr "Ihre Abonnementverlängerung ist abgeschlossen"
+
+#: includes/common/email_notification/completed-renewal-order.php:26
+#, php-format
+msgid ""
+"Your %1$s subscription renewal order from %2$s is complete - download your "
+"files"
+msgstr "Ihre%1$s Abo-Verlängerung vom %2$s ist komplett"
+
+#: includes/common/email_notification/expired-subscription.php:15
+msgid "Expired Subscription"
+msgstr "Abgelaufenes Abonnement"
+
+#: includes/common/email_notification/expired-subscription.php:16
+msgid ""
+"Expired Subscription emails are sent when a customer's subscription expires."
+msgstr ""
+"E-Mails für abgelaufenen Abonnement werden versandt, sobald das Abonnement "
+"des Kunden ausläuft."
+
+#: includes/common/email_notification/expired-subscription.php:18
+msgid "Subscription Expired"
+msgstr "Mitgliedschaft abgelaufen"
+
+#: includes/common/email_notification/expired-subscription.php:19
+#, php-format
+msgid "[%s] Subscription Expired"
+msgstr "[%s] Abonnement abgelaufen"
+
+#: includes/common/email_notification/expired-subscription.php:40
+#: includes/common/email_notification/on-hold-subscription.php:39
+msgid "Subscription argument passed in is not an object."
+msgstr "Das übergebene Abonnementargument ist kein Objekt."
+
+#: includes/common/email_notification/new-renewal-order.php:14
+msgid "New Renewal Order"
+msgstr "Neue Abonnement-Verlängerung"
+
+#: includes/common/email_notification/new-renewal-order.php:15
+msgid ""
+"New renewal order emails are sent when a subscription renewal payment is "
+"processed."
+msgstr ""
+"Neue E-Mails für die Erneuerungsbestellung werden gesendet, wenn eine Abo-"
+"Verlängerungs-Zahlung bearbeitet wird."
+
+#: includes/common/email_notification/new-renewal-order.php:17
+msgid "New subscription renewal order"
+msgstr "Neue Abonnement Verlängerungs-Bestellung"
+
+#: includes/common/email_notification/new-renewal-order.php:18
+msgid ""
+"[{blogname}] New subscription renewal order ({order_number}) - {order_date}"
+msgstr "[{blogname}] Abonnement-Verlängerung ({order_number}) - {order_date}"
+
+#: includes/common/email_notification/on-hold-subscription.php:14
+msgid "Suspended Subscription"
+msgstr "Ausgesetztes Abonnement"
+
+#: includes/common/email_notification/on-hold-subscription.php:15
+msgid ""
+"Suspended Subscription emails are sent when a customer manually suspends "
+"their subscription."
+msgstr ""
+"Ausgesetztes Abonnement-Emails werden versandt, wenn ein Kunde manuell sein "
+"Abonnement ausgesetzt hat."
+
+#: includes/common/email_notification/on-hold-subscription.php:17
+msgid "Subscription Suspended"
+msgstr "Mitgliedschaft ausgesetzt"
+
+#: includes/common/email_notification/on-hold-subscription.php:18
+#, php-format
+msgid "[%s] Subscription Suspended"
+msgstr "[%s] Abonnement ausgesetzt"
+
+#: includes/common/email_notification/processing-renewal-order.php:14
+msgid "Processing Renewal order"
+msgstr "Verlängerungsauftrag in Bearbeitung"
+
+#: includes/common/email_notification/processing-renewal-order.php:15
+msgid ""
+"This is an order notification sent to the customer after payment for a "
+"subscription renewal order is completed. It contains the renewal order "
+"details."
+msgstr ""
+"Dies ist ein Hinweis zur Bestellung, welcher an den Kunden gesendet wird, "
+"nachdem die Zahlung für eine Abo-Verlängerungsbestellung abgeschlossen ist. "
+"Er enthält die Abo-Verlängerungs-Details."
+
+#: includes/common/email_notification/processing-renewal-order.php:18
+msgid "Thank you for your order"
+msgstr "Danke für Ihre Bestellung"
+
+#: includes/common/email_notification/processing-renewal-order.php:19
+msgid "Your {blogname} renewal order receipt from {order_date}"
+msgstr ""
+"Ihre {blogname} Rechnung für die neue Lieferung im Abo vom {order_date}"
+
+#: includes/common/email_notification/renewal-invoice.php:17
+msgid "Renewal Due Invoice"
+msgstr "Erneuerung fällige Rechnung"
+
+#: includes/common/email_notification/renewal-invoice.php:18
+msgid ""
+"Sent to a customer when the subscription is due for renewal and the renewal "
+"requires a manual payment, either because it uses manual renewals or the "
+"automatic recurring payment failed. The email contains renewal order "
+"information and payment links."
+msgstr ""
+"Wird an Kunden verschickt, wenn die Abonnement-Verlängerung fällig ist und "
+"eine manuelle Zahlung erfordert, bzw. eine automatische Zahlung "
+"fehlgeschlagen ist. Diese Email enthält Informationen zur Verlängerung sowie "
+"Links zur Zahlung"
+
+#: includes/common/email_notification/renewal-invoice.php:25
+msgid "Invoice for renewal order {order_number} from {order_date}"
+msgstr "Rechnung für Abonnement-Verlängerung {order_number} vom {order_date}"
+
+#: includes/common/email_notification/renewal-invoice.php:26
+msgid "Invoice for renewal order {order_number}"
+msgstr "Rechnung für Abonnement-Verlängerung {order_number}"
+
+#: includes/common/subscriptions-cart.php:435
+msgid "Please enter a valid postcode/ZIP."
+msgstr "Bitte geben Sie eine gültige Postleitzahl ein."
+
+#: includes/common/subscriptions-cart.php:558
+msgid ""
+"That subscription product can not be added to your cart as it already "
+"contains a subscription renewal."
+msgstr ""
+"Dieses Abonnement kann nicht in den Warenkorb gelegt werden, weil dafür "
+"bereits eine Vertragsverlängerung besteht."
+
+#: includes/common/subscriptions-cart.php:617
+msgid "Invalid recurring shipping method."
+msgstr "Ungültige wiederkehrende Versandart."
+
+#: includes/common/subscriptions-checkout.php:120
+#: includes/common/subscriptions-checkout.php:251
+#, php-format
+msgid "Error %d: Unable to create subscription. Please try again."
+msgstr ""
+"Fehler %d: Leider kann das Abonnement nicht erstellt werden. Bitte versuchen "
+"Sie es erneut."
+
+#: includes/common/subscriptions-checkout.php:134
+#, php-format
+msgid "Error %d: Unable to add tax to subscription. Please try again."
+msgstr ""
+"Fehler %d: Kann die MwSt. zu diesem Abo nicht anlegen. Probiere es bitte "
+"nochmal."
+
+#: includes/common/subscriptions-checkout.php:144
+#, php-format
+msgid "Error %d: Unable to create order. Please try again."
+msgstr ""
+"Fehler %d: Die Bestellung wurde nicht erstellt. Bitte versuchen Sie es "
+"erneut."
+
+#: includes/common/subscriptions-checkout.php:226
+#: includes/order-functions.php:217 includes/wc-dependant/subscription.php:1481
+msgid "Backordered"
+msgstr "Nachbestellt"
+
+#: includes/common/subscriptions-manager.php:39
+#: includes/common/subscriptions-manager.php:752
+msgid "Subscription renewal payment due:"
+msgstr "Zahlung für Abonnement Verlängerung fällig:"
+
+#: includes/common/subscriptions-manager.php:46
+msgid ""
+"Error: Unable to create renewal order from scheduled payment. Please try "
+"again."
+msgstr ""
+"Fehler: Es konnte keine Verlängerungsbestellung mit dem geplanten "
+"Zahlungswweise erstellt werden. Bitte versuchen Sie es erneut."
+
+#: includes/common/subscriptions-manager.php:78
+#: includes/payment-gateways.php:142
+#, php-format
+msgid "Subscription doesn't exist in scheduled action: %d"
+msgstr "Abonnement existiert nicht in der geplanten Aktion: %d"
+
+#: includes/common/subscriptions-manager.php:154
+#, php-format
+msgid "Failed to activate subscription status for order #%1$s: %2$s"
+msgstr "Fehler beim Aktivieren des Abonnements für Bestellung #%1$s: %2$s"
+
+#: includes/common/subscriptions-manager.php:172
+#, php-format
+msgid ""
+"Failed to update subscription status after order #%1$s was put on-hold: %2$s"
+msgstr ""
+"Fehler beim Aktualisieren des Abonnements-Status nachdem die Bestellung #"
+"%1$s auf wartend gesetzt wurde: %2$s"
+
+#: includes/common/subscriptions-manager.php:189
+#, php-format
+msgid "Failed to cancel subscription after order #%1$s was cancelled: %2$s"
+msgstr ""
+"Fehler bei der Kündigung des Abonnements nachdem Bestellung #%1$s gekündigt "
+"wurde: %2$s"
+
+#: includes/common/subscriptions-manager.php:207
+#, php-format
+msgid "Failed to set subscription as expired for order #%1$s: %2$s"
+msgstr ""
+"Fehler beim Ändern des Abonnements auf \"Abgelaufen\" für Bestellung #%1$s: "
+"%2$s"
+
+#: includes/common/subscriptions-manager.php:225
+msgid "Subscription sign up failed."
+msgstr "Abonnement Anmeldung fehlgeschlagen."
+
+#: includes/common/subscriptions-manager.php:233
+#, php-format
+msgid "Failed to process failed payment on subscription for order #%1$s: %2$s"
+msgstr ""
+"Fehler beim Verarbeiten der fehlgeschlagenen Abo-Zahlung für Bestellung #"
+"%1$s: %2$s"
+
+#: includes/common/subscriptions-manager.php:287
+msgid "Error: Unable to create subscription. Please try again."
+msgstr ""
+"Fehler: Das Abonnement nicht erstellt werden. Bitte versuchen Sie es erneut."
+
+#: includes/common/subscriptions-manager.php:304
+msgid "Error: Unable to add product to created subscription. Please try again."
+msgstr ""
+"Fehler: Produkt kann nicht zu dem erstellten Abonnement hinzugefügt werden. "
+"Bitte versuchen Sie es erneut."
+
+#: includes/common/subscriptions-manager.php:341
+msgid "Pending subscription created."
+msgstr "Wartendes Abonnement erstellt."
+
+#: includes/common/subscriptions-manager.php:599
+msgid "Failed"
+msgstr "Abonnement Anmeldung fehlgeschlagen."
+
+#: includes/common/subscriptions-manager.php:603
+msgid "On-hold"
+msgstr "In Wartestellung"
+
+#: includes/common/subscriptions-manager.php:688
+#, php-format
+msgid "%1$s-%2$s"
+msgstr "Fehler beim Aktivieren des Abonnements für Bestellung #%1$s: %2$s"
+
+#: includes/common/subscriptions-manager.php:700
+#, php-format
+msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
+msgstr "%1$s%2$s, %3$s @ %4$s : %5$s"
+
+#: includes/common/subscriptions-manager.php:702
+#, php-format
+msgid "%1$s%2$s, %3$s"
+msgstr "%1$s%2$s, %3$s"
+
+#: includes/common/subscriptions-manager.php:707
+msgid "Change"
+msgstr "Ändern"
+
+#: includes/common/subscriptions-manager.php:772
+#, php-format
+msgid "Failed sign-up for subscription %s."
+msgstr "Anmeldung für Abonnement %s fehlgeschlagen."
+
+#: includes/common/subscriptions-order.php:351
+msgid "Original"
+msgstr "Original"
+
+#: includes/common/subscriptions-order.php:352
+msgid "Subscription Parent"
+msgstr "Übergeordnetes Abonnement"
+
+#: includes/common/subscriptions-order.php:353
+msgid "Subscription Renewal"
+msgstr ""
+"Bestellungen für Abonnements-Verlängerungen können nicht storniert werden."
+
+#: includes/common/subscriptions-order.php:354
+msgid "Subscription Resubscribe"
+msgstr "Abonnement Wiederaufnahme"
+
+#: includes/common/subscriptions-order.php:355
+msgid "Subscription Switch"
+msgstr "Abonnement-Wechsel abgeschlossen"
+
+#: includes/common/subscriptions-order.php:356
+msgid "Non-subscription"
+msgstr "Nicht-Abonnement"
+
+#: includes/common/subscriptions-order.php:474
+#, php-format
+msgid "Subscription cancelled for refunded order %1$s#%2$s%3$s."
+msgstr "Abonnement storniert für rückerstattete Bestellung %1$s#%2$s%3$s."
+
+#: includes/common/subscriptions-renewal-order.php:93
+#, php-format
+msgid "#%s"
+msgstr "#%s"
+
+#: includes/common/subscriptions-renewal-order.php:94
+#, php-format
+msgid "Order %s created to record renewal."
+msgstr "Bestellung %s erstellt um Verlängerung zu erfassen."
+
+#: includes/common/subscriptions-renewal-order.php:109
+msgid "Subscription renewal orders cannot be cancelled."
+msgstr ""
+"Bestellungen für Abonnements-Verlängerungen können nicht storniert werden."
+
+#: includes/common/user-change-status-handler.php:38
+msgid "Subscription reactivated by the subscriber from their account page."
+msgstr "Das Abo wurde vom Abonnenten reaktiviert (Mein Konto)."
+
+#: includes/common/user-change-status-handler.php:39
+msgid "Your subscription has been reactivated."
+msgstr "Dein Abonnement wurde reaktiviert."
+
+#: includes/common/user-change-status-handler.php:42
+msgid ""
+"You can not reactivate that subscription until paying to renew it. Please "
+"contact us if you need assistance."
+msgstr ""
+"Sie können das Abonnent nicht reaktivieren, solange die Verlängerung nicht "
+"bezahlt wurde. Bitte kontaktieren Sie uns, falls Sie Hilfe benötigen."
+
+#: includes/common/user-change-status-handler.php:48
+msgid "Subscription put on hold by the subscriber from their account page."
+msgstr "Das Abo wurde vom Abonnenten angehalten (Mein Konto)."
+
+#: includes/common/user-change-status-handler.php:49
+msgid "Your subscription has been put on hold."
+msgstr "Dein Abonnement wurde angehalten."
+
+#: includes/common/user-change-status-handler.php:52
+msgid ""
+"You can not suspend that subscription - the suspension limit has been "
+"reached. Please contact us if you need assistance."
+msgstr ""
+"Sie können das Abonnement nicht unterbrechen - das Limit für die Aussetzung "
+"wurde erreicht. Bitte kontaktieren Sie uns, falls Sie Hilfe benötigen."
+
+#: includes/common/user-change-status-handler.php:57
+msgid "Subscription cancelled by the subscriber from their account page."
+msgstr "Das Abo wurde vom Abonnenten gekündigt (Mein Konto)."
+
+#: includes/common/user-change-status-handler.php:58
+msgid "Your subscription has been cancelled."
+msgstr "Dein Abonnement wurde gekündigt."
+
+#: includes/common/user-change-status-handler.php:72
+msgid ""
+"That subscription does not exist. Please contact us if you need assistance."
+msgstr ""
+"Dieses Abonnement gibt es nicht. Bitte kontaktieren Sie uns, wenn Sie Hilfe "
+"benötigen."
+
+#: includes/common/user-change-status-handler.php:84
+#, php-format
+msgid ""
+"That subscription can not be changed to %s. Please contact us if you need "
+"assistance."
+msgstr ""
+"Das Abonnement kann nicht auf %s geändert werden. Bitte kontaktieren Sie "
+"uns, wenn Sie Hilfe benötigen."
+
+#: includes/compatibility-functions.php:102
+#, php-format
+msgid ""
+"Could not get subscription. Most likely the subscription key does not refer "
+"to a subscription. The key was: \"%s\"."
+msgstr ""
+"Abonnement konnte nicht abgerufen werden. Wahrscheinlich gehört der "
+"Abonnementschlüssel nicht zu einem Abonnement. Der Schlüssel war: „%s“."
+
+#: includes/date-time-functions.php:14
+#: includes/wc-dependant/subscription.php:724
+#, php-format
+msgid "In %s"
+msgstr "In %s"
+
+#: includes/date-time-functions.php:16
+#: includes/wc-dependant/subscription.php:726
+#, php-format
+msgid "%s ago"
+msgstr "%s alt"
+
+#: includes/date-time-functions.php:58
+msgid "Never expire"
+msgstr "Läuft nie ab"
+
+#: includes/date-time-functions.php:63
+msgid "1 day"
+msgstr "1 tag"
+
+#: includes/date-time-functions.php:67
+msgid "1 week"
+msgstr "1 Woche"
+
+#: includes/date-time-functions.php:71
+msgid "1 month"
+msgstr "1 Monat"
+
+#: includes/date-time-functions.php:75
+msgid "1 year"
+msgstr "1 Jahr"
+
+#: includes/date-time-functions.php:112
+msgid "every"
+msgstr "pro %s"
+
+#: includes/date-time-functions.php:115 includes/subscriptions-product.php:183
+#, php-format
+msgid "every %s"
+msgstr "pro %s"
+
+#: includes/date-time-functions.php:148
+msgid "no"
+msgstr "no"
+
+#: includes/frontend/subscription-account-view.php:65
+#, php-format
+msgid "Subscription #%s"
+msgstr "Anmeldung für Abonnement %s fehlgeschlagen."
+
+#: includes/frontend/subscriptions-addresses.php:22
+msgid "Change Address"
+msgstr "Adresse ändern"
+
+#: includes/frontend/subscriptions-addresses.php:43
+#, php-format
+msgid "Update the %1$s used for all of my active subscriptions"
+msgstr "Update für alle meine aktiven Abonnements verwendet %1$s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:81
+msgid "Published"
+msgstr "Honnef heute"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:81
+msgid "Complete"
+msgstr "Vollständig"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:119
+msgid "Hook"
+msgstr "Hook"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:121
+msgid "Arguments"
+msgstr "Argumente"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:122
+msgid "Group"
+msgstr ""
+"-Exportieren Sie Produkte (einfache, Gruppe, extern und Variationen) in eine "
+"CSV-Datei <strong>(Basis-Version unterstützt nur einfache Produkte)</strong>."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:123
+msgid "Recurrence"
+msgstr "Wiederkehrer"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:124
+msgid "Scheduled Date"
+msgstr "Geplantes Datum"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:129
+msgid "Started"
+msgstr "Gestartet"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:131
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:135
+msgid "Claim ID"
+msgstr "Claim ID"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:136
+msgid "Log"
+msgstr "Protokoll"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:203
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:212
+#, php-format
+msgid " (%s ago)"
+msgstr "(%s früher)"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:244
+msgid "Process the action now as if it were run as part of a queue"
+msgstr ""
+"Verarbeite den Vorgang jetzt, als ob dieser im Rahmen einer Warteschlange "
+"laufen würde"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:244
+msgid "Run"
+msgstr "Jetzt starten"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:322
+#, php-format
+msgid ""
+"Maximum simulatenous batches already in progress (%s queues). No actions "
+"will be processed until the current batches are complete."
+msgstr ""
+"Maximale Anzahl von gleichzeitigen Vorgängen bereits in Arbeit (%s "
+"Warteschlangen). Es werden keine Vorgänge verarbeitet, bevor die bereits "
+"laufenden vollständig beendet sind."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:331
+#, php-format
+msgid "Successfully executed the action: %s"
+msgstr "Vorgang erfolgreich ausgeführt: %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:335
+#, php-format
+msgid "Could not execute the action: %s"
+msgstr "Vorgang konnte nicht ausgeführt werden: %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:367
+msgid "Now!"
+msgstr "Jetzt!"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:454
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:457
+msgid "Action updated."
+msgstr "Aktion aktualisiert."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:458
+#, php-format
+msgid "Action restored to revision from %s"
+msgstr "Aktion auf Revision vom %s zurückgesetzt"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:459
+msgid "Action scheduled."
+msgstr "Aktion geplant."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:460
+msgid "Action saved."
+msgstr "Aktion gespeichert."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:461
+msgid "Action submitted."
+msgstr "Aktion hinzugefügt."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:462
+#, php-format
+msgid "Action scheduled for: <strong>%1$s</strong>"
+msgstr "Aktion geplant für: <strong>%1$s</strong>"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:463
+msgid "Action draft updated."
+msgstr "Aktionsentwurf aktualisiert."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_QueueRunner.php:138
+msgid "Every minute"
+msgstr "Jede Minute"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:248
+msgid "action created"
+msgstr "Aktion erstellt"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:252
+msgid "action canceled"
+msgstr "Aktion abgebrochen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:256
+msgid "action started"
+msgstr "Aktion gestartet"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:260
+msgid "action complete"
+msgstr "Aktion abgeschlossen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:264
+#, php-format
+msgid "action failed: %s"
+msgstr "Aktion fehlgeschlagen: %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:268
+#, php-format
+msgid "action timed out after %s seconds"
+msgstr "Zeitüberschreitung des Vorgangs nach %s Sekunden"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:273
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %s in %s on line %s"
+msgstr "Unerwarteter Abbruch: Schwerer PHP Fehler %s in %s in Zeile %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpCommentLogger.php:278
+msgid "action reset"
+msgstr "Aktion zurücksetzen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:25
+#, php-format
+msgid "Error saving action: %s"
+msgstr "Fehler beim Speichern des Vorgangs: %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:44
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:53
+msgid "Invalid schedule. Cannot save action."
+msgstr "Ungültiger Zeitplan. Aktion kann nicht gespeichert werden."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:69
+msgid "Unable to save action."
+msgstr "Aktion kann nicht gespeichert werden."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:319
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:328
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:354
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:489
+#, php-format
+msgid "Unidentified action %s"
+msgstr "Unbekannte Aktion %s"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:410
+msgid "Unable to claim actions. Database error."
+msgstr "Aktionen können nicht ausgeführt werden. Datenbankfehler."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:440
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr "Aktion %s kann nicht freigegeben werden. Datenbankfehler."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:456
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "Nicht in der Lage, Antrag für %s Vorgang freizugeben. Datenbankfehler."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore.php:467
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr ""
+"Nicht in der Lage, Fehler für %s Vorgang zu markieren. Datenbankfehler."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:21
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgid "Scheduled Actions"
+msgstr "Geplante Aktionen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:22
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr ""
+"Geplante Aktionen sind Hooks, welche zu einem bestimmten Datum und Uhrzeit "
+"ausgeführt werden."
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Scheduled Action"
+msgstr "Geplante Aktion"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Add New Scheduled Action"
+msgstr "Geplante Aktion hinzufügen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+msgid "Edit Scheduled Action"
+msgstr "Geplante Aktion bearbeiten"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "New Scheduled Action"
+msgstr "Neue geplante Aktion"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "View Action"
+msgstr "Aktion anzeigen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "Search Scheduled Actions"
+msgstr "Geplante Aktionen suchen"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:43
+msgid "No actions found"
+msgstr "Keine Aktionen gefunden"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_PostTypeRegistrar.php:44
+msgid "No actions found in trash"
+msgstr "Keine Aktionen im Papierkorb gefunden"
+
+#: includes/libraries/action-scheduler/classes/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:16
+msgid "Action Group"
+msgstr "Vorgangsgruppe"
+
+#: includes/order-functions.php:85
+msgid "Invalid data. Orders expected aren't orders."
+msgstr "Ungültige Daten. Erwartete Bestellungen sind keine Bestellungen."
+
+#: includes/order-functions.php:89
+msgid "Invalid data. Type of copy is not a string."
+msgstr "Ungültige Daten. Typ der Kopie ist keine Zeichenfolge."
+
+#: includes/order-functions.php:240
+msgid "$type passed to the function was not a string."
+msgstr "Der an die Funktion übergebene $type war keine Zeichenfolge."
+
+#: includes/order-functions.php:244
+#, php-format
+msgid "\"%s\" is not a valid new order type."
+msgstr "„%s“ ist kein gültiger neuer Bestelltyp."
+
+#: includes/order-functions.php:394
+msgid "Invalid data. No valid subscription / order was passed in."
+msgstr ""
+"Ungültige Daten. Es wurde kein gültiges Abonnement / keine gültige "
+"Bestellung übergeben."
+
+#: includes/order-functions.php:398
+msgid "Invalid data. No valid item id was passed in."
+msgstr "Ungültige Daten. Kein gültiger Artikel wurde übergeben."
+
+#: includes/payment-gateways.php:83
+msgid ""
+"Sorry, it seems there are no available payment methods which support "
+"subscriptions. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Entschuldigen Sie, es scheint keine Zahlungsmethode zu geben welche "
+"Abonnements unterstützt. Bitte wenden Sie sich an uns, wenn Sie Hilfe "
+"benötigen."
+
+#: includes/price-functions.php:12
+msgid "up front"
+msgstr "im voraus"
+
+#: includes/price-functions.php:52
+#, php-format
+msgid "%1$s %2$s then %3$s"
+msgstr "%1$s %2$s dann %3$s"
+
+#: includes/price-functions.php:65
+#, php-format
+msgid "%1$s %2$s then %3$s every %4$s"
+msgstr "%1$s %2$s dann %3$s jeder %4$s"
+
+#: includes/price-functions.php:67 includes/price-functions.php:130
+#, php-format
+msgid "%1$s every %2$s"
+msgstr "%1$s alle %2$s"
+
+#: includes/price-functions.php:71
+msgid "%1$s %2$s then %3$s every %4%s on %5$s"
+msgstr "%1$s %2$s dann %3$s jeden %4%s am %5$s"
+
+#: includes/price-functions.php:73
+#, php-format
+msgid "%1$s every %2$s on %3$s"
+msgstr "%1$s jeden %2$s am %3$s"
+
+#: includes/price-functions.php:81
+#, php-format
+msgid "%1$s %2$s then %3$s on the last day of each month"
+msgstr "%1$s %2$s dann %3$s am letzten Tag eines jeden Monats"
+
+#: includes/price-functions.php:83
+#, php-format
+msgid "%1$s %2$s then %3$s on the %4$s of each month"
+msgstr "%1$s %2$s dann %3$s am %4$s eines jeden Monats"
+
+#: includes/price-functions.php:87
+#, php-format
+msgid "%s on the last day of each month"
+msgstr "%s am letzten Tag jeden Monats"
+
+#: includes/price-functions.php:89
+#, php-format
+msgid "%1$s on the %2$s of each month"
+msgstr "%1$s am %2$sn jeden Monats"
+
+#: includes/price-functions.php:95
+#, php-format
+msgid "%1$s %2$s then %3$s on the last day of every %4$s month"
+msgstr "%1$s %2$s dann %3$s am letzten Tag jeden %4$s Monats"
+
+#: includes/price-functions.php:97
+#, php-format
+msgid "%1$s %2$s then %3$s on the %4$s day of every %5$s month"
+msgstr "%1$s %2$s dann %3$s am %4$s Tag jeden %5$s Monats"
+
+#: includes/price-functions.php:101
+#, php-format
+msgid "%1$s on the last day of every %2$s month"
+msgstr "%1$s am letzten Tag jedes %2$s Monats"
+
+#: includes/price-functions.php:103
+#, php-format
+msgid "%1$s on the %2$s day of every %3$s month"
+msgstr "%1$s am %2$s Tag jedes %3$s Monats"
+
+#: includes/price-functions.php:111
+#, php-format
+msgid "%1$s %2$s then %3$s on %4$s %5$s each year"
+msgstr "%1$s %2$s dann %3$s am %4$s %5$s jedes Jahr"
+
+#: includes/price-functions.php:113
+#, php-format
+msgid "%1$s on %2$s %3$s each year"
+msgstr "%1$s am %2$s %3$s jedes Jahr"
+
+#: includes/price-functions.php:117
+#, php-format
+msgid "%1$s %2$s then %3$s on %4$s %5$s every %6$s year"
+msgstr "%1$s %2$s dann %3$s am %4$s %5$s jedes %6$s Jahr"
+
+#: includes/price-functions.php:119
+#, php-format
+msgid "%1$s on %2$s %3$s every %4$s year"
+msgstr "%1$s am %2$s %3$s jedes %4$s Jahr"
+
+#: includes/price-functions.php:137 includes/subscriptions-product.php:187
+#, php-format
+msgid "%1$s for %2$s"
+msgstr "%1$s für %2$s"
+
+#: includes/price-functions.php:143
+#, php-format
+msgid "%1$s after %2$s free trial"
+msgstr "%1$s nach %2$s Testphase"
+
+#: includes/price-functions.php:145
+#, php-format
+msgid "%1$s free trial then %2$s"
+msgstr "%1$s kostenloser Test, dann %2$s"
+
+#: includes/subscription-cart-functions.php:53
+#: includes/subscription-cart-functions.php:54
+#, php-format
+msgid "Shipping via %s"
+msgstr "Lieferung via %s"
+
+#: includes/subscription-cart-functions.php:138
+msgid "Free"
+msgstr "Kostenlos"
+
+#: includes/subscription-cart-functions.php:165
+msgid "Free shipping coupon"
+msgstr "Gutschein für kostenlosen Versand"
+
+#: includes/subscription-cart-functions.php:193
+#, php-format
+msgid "(Includes %s)"
+msgstr "(Inklusive %s)"
+
+#: includes/subscription-cart-functions.php:236
+#, php-format
+msgid "First renewal date: %s"
+msgstr "Erste Verlängerung wird in Rechnung gestellt am: %s"
+
+#: includes/subscriptions-coupon.php:29
+msgid "Recurring Product Discount"
+msgstr "Wiederkehrender Produkt Rabatt"
+
+#: includes/subscriptions-coupon.php:30
+msgid "Recurring Product % Discount"
+msgstr "Wiederkehrender Produkt % Rabatt"
+
+#: includes/subscriptions-coupon.php:145
+msgid ""
+"Sorry, this coupon is only valid for an initial payment and the cart does "
+"not require an initial payment."
+msgstr ""
+"Entschuldigung, dieser Gutschein gilt nur für Einrichtungsgebühren und Ihre "
+"Produkte im Warenkorb erfordern keine Einrichtungsgebühren."
+
+#: includes/subscriptions-coupon.php:150
+msgid "Sorry, this coupon is only valid for new subscriptions."
+msgstr "Sorry, leider ist dieser Gutschein nur für neue Abonnemente gültig."
+
+#: includes/subscriptions-coupon.php:154
+msgid "Sorry, this coupon is only valid for subscription products."
+msgstr "Sorry, dieser Gutschein ist nur für Abonnemente gültig."
+
+#: includes/subscriptions-coupon.php:158
+#, php-format
+msgid "Sorry, the \"%1$s\" coupon is only valid for renewals."
+msgstr "Sorry, der \"%1$s\" Gutschein ist nur für Verlängerungen gültig."
+
+#: includes/subscriptions-coupon.php:310
+#, php-format
+msgid "Renewal % discount"
+msgstr "Renewal % discount"
+
+#: includes/subscriptions-coupon.php:311
+msgid "Renewal product discount"
+msgstr "Erneuerung Produktrabatt"
+
+#: includes/subscriptions-coupon.php:312
+msgid "Renewal cart discount"
+msgstr "Erneuerung Warenkorbrabatt"
+
+#: includes/subscriptions-coupon.php:320
+msgid "Renewal Discount"
+msgstr "Erneuerung % Rabatt"
+
+#: includes/user-functions.php:197
+msgid "Resubscribe"
+msgstr "Wieder abonnieren"
+
+#: includes/wc-dependant/subscription.php:285
+#, php-format
+msgid "Unable to change subscription status to \"%s\"."
+msgstr "Abonnementstatus kann nicht auf \"%s\" geändert werden."
+
+#: includes/wc-dependant/subscription.php:359
+#, php-format
+msgid "Unable to change subscription status to \"%s\". Exception: %s"
+msgstr "Unable to change subscription status to \"%s\". Exception: %s"
+
+#: includes/wc-dependant/subscription.php:373
+#, php-format
+msgid "Status changed from %1$s to %2$s."
+msgstr "Status von %1$s auf %2$s geändert."
+
+#: includes/wc-dependant/subscription.php:378
+#, php-format
+msgid "Status set to %s."
+msgstr "Status auf %s geändert."
+
+#: includes/wc-dependant/subscription.php:733
+msgid "Not yet ended"
+msgstr "Noch nicht beendet"
+
+#: includes/wc-dependant/subscription.php:736
+msgid "Not cancelled"
+msgstr "Nicht gekündigt"
+
+#: includes/wc-dependant/subscription.php:740
+msgid "-"
+msgstr "-"
+
+#: includes/wc-dependant/subscription.php:824
+msgid "The start date of a subscription can not be deleted, only updated."
+msgstr ""
+"Das Startdatum von einem Abonnement kann nicht gelöscht, nur geändert werden."
+
+#: includes/wc-dependant/subscription.php:828
+#, php-format
+msgid ""
+"The %s date of a subscription can not be deleted. You must delete the order."
+msgstr ""
+"Das %s Datum eines Abonnements kann nicht gelöscht werden. Sie müssen den "
+"Auftrag löschen."
+
+#: includes/wc-dependant/subscription.php:1095
+msgid "Sign-up complete."
+msgstr "Anmeldung abgeschlossen."
+
+#: includes/wc-dependant/subscription.php:1097
+msgid "Payment received."
+msgstr "Zahlung erhalten."
+
+#: includes/wc-dependant/subscription.php:1119
+msgid "Payment failed."
+msgstr "Bezahlung fehlgeschlagen."
+
+#: includes/wc-dependant/subscription.php:1123
+msgid "Subscription Cancelled: maximum number of failed payments reached."
+msgstr ""
+"Abonnement gekündigt: maximale Anzahl von fehlgeschlagenen Zahlungen "
+"erreicht."
+
+#: includes/wc-dependant/subscription.php:1252
+msgid "Manual Renewal"
+msgstr "Manuelle Erneuerung"
+
+#: includes/wc-dependant/subscription.php:1304
+msgid "Payment method meta must be an array."
+msgstr "Die Zahlungsmethode muss ausgewählt werden."
+
+#: includes/wc-dependant/subscription.php:1394
+msgid "Invalid format. First parameter needs to be an array."
+msgstr "Ungültiges Format. Erster Parameter muss ein Array sein."
+
+#: includes/wc-dependant/subscription.php:1398
+msgid "Invalid data. First parameter was empty when passed to update_dates()."
+msgstr ""
+"Ungültige Daten. Erster Parameter war leer als er an update_dates() "
+"übergeben wurde."
+
+#: includes/wc-dependant/subscription.php:1405
+msgid ""
+"Invalid data. First parameter has a date that is not in the registered date "
+"types."
+msgstr ""
+"Ungültige Daten. Erster Parameter ist ein Datum, das nicht in die "
+"registrierten Datumstypen eingetragen ist."
+
+#: includes/wc-dependant/subscription.php:1424
+#, php-format
+msgid "Invalid %s date. The date must be of the format: \"Y-m-d H:i:s\"."
+msgstr ""
+"Ungültiges %s Datum. Das Datum muss eine Zeichenfolge im folgendem Format "
+"sein: „Y-m-d H:i:s“."
+
+#: includes/wc-dependant/subscription.php:1454
+#, php-format
+msgid "The %s date must occur after the cancellation date."
+msgstr "Das %s Datum muss nach dem Kündigungsdatum liegen."
+
+#: includes/wc-dependant/subscription.php:1459
+#, php-format
+msgid "The %s date must occur after the last payment date."
+msgstr "Das %s-Datum muss nach dem letzten Zahlungsdatum liegen."
+
+#: includes/wc-dependant/subscription.php:1462
+#, php-format
+msgid "The %s date must occur after the next payment date."
+msgstr "Das %s-Datum muss nach dem nächsten Zahlungsdatum liegen."
+
+#: templates/cart/cart-recurring-shipping.php:14
+msgid "Recurring shipping options can be selected on checkout."
+msgstr ""
+"Wiederkehrende Versandoptionen können auf der Kasse-Seite ausgewählt werden."
+
+#: templates/cart/cart-recurring-shipping.php:28
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+"Die Lieferkosten werden berechnet, sobald Sie Ihre Adresse angegeben haben."
+
+#: templates/cart/cart-recurring-shipping.php:30
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"Keine Lieferarten verfügbar. Bitte prüfen Sie Ihre Adresse – oder "
+"kontaktieren Sie uns, wenn Sie Hilfe benötigen."
+
+#: templates/emails/customer-renewal-invoice.php:13
+#, php-format
+msgid ""
+"An invoice has been created for you to renew your subscription with %1$s. To "
+"pay for this invoice please use the following link: %2$s"
+msgstr ""
+"Ihr Abonnement: %s wurde verlängern, eine Rechnung wurde für Sie erstellt. "
+"Um Ihr Abonnement einsehen zu können, benutzen Sie bitte folgenden Link: %s"
+
+#: templates/emails/customer-renewal-invoice.php:18
+#, php-format
+msgid ""
+"The automatic payment to renew your subscription with %1$s has failed. To "
+"reactivate the subscription, please login and pay for the renewal from your "
+"account page: %2$s"
+msgstr ""
+"Die automatische Zahlung der nächsten Lieferung im Abo vom %1$s ist "
+"fehlgeschlagen. Um das Abonnement zu reaktivieren, loggen Sie bitte ein, "
+"aktualisieren und bezahlen diese nun anstehende Lieferung im Abo im "
+"Kundenbereich: %2$s"
+
+#: templates/emails/plain/admin-new-renewal-order.php:8
+#, php-format
+msgid ""
+"You have received a subscription renewal order from %1$s. Their order is as "
+"follows:"
+msgstr ""
+"Das Abonnement von %1$s wurde verlängert. Die Bestellung lautet wie folgt:"
+
+#: templates/emails/plain/cancelled-subscription.php:8
+#, php-format
+msgid ""
+"A subscription belonging to %1$s has been cancelled. Their subscription's "
+"details are as follows:"
+msgstr ""
+"Das Abonnement, welches zu %1$s gehört, wurde beendet. Die Abonnementdetails "
+"lauten wie folgt:"
+
+#: templates/emails/plain/cancelled-subscription.php:19
+#: templates/emails/plain/expired-subscription.php:19
+#, php-format
+msgid "Last Order Date: %s"
+msgstr "Letztes Bestelldatum: %s"
+
+#: templates/emails/plain/cancelled-subscription.php:25
+#, php-format
+msgid "End of Prepaid Term: %s"
+msgstr "Ende der vorausbezahlten Laufzeit: %s"
+
+#: templates/emails/plain/cancelled-subscription.php:30
+#: templates/emails/plain/expired-subscription.php:30
+#: templates/emails/plain/on-hold-subscription.php:26
+#: templates/emails/plain/subscription-info.php:11
+#, php-format
+msgid "View Subscription: %s"
+msgstr "Zeige Abonnement: %s"
+
+#: templates/emails/plain/customer-completed-renewal-order.php:8
+#, php-format
+msgid ""
+"Hi there. Your subscription renewal order with %s has been completed. Your "
+"order details are shown below for your reference:"
+msgstr ""
+"Ihre Abo-Verlängerung auf %s ist erfolgreich abgeschlossen. Hier die Abo "
+"Bestellangaben:"
+
+#: templates/emails/plain/customer-processing-renewal-order.php:8
+msgid ""
+"Your subscription renewal order has been received and is now being "
+"processed. Your order details are shown below for your reference:"
+msgstr ""
+"Ihre Aboverlängerung ist im System vorgenommen worden. Die Bestelldaten "
+"finden Sie hier:"
+
+#: templates/emails/plain/email-order-details.php:9
+#, php-format
+msgid "Order number: %s"
+msgstr "Bestellnummer: %s"
+
+#: templates/emails/plain/email-order-details.php:10
+#, php-format
+msgid "Order date: %s"
+msgstr "Bestelldatum: %s"
+
+#: templates/emails/plain/email-order-details.php:12
+#, php-format
+msgid "Subscription Number: %s"
+msgstr "Abonnement-Nummer: %s"
+
+#: templates/emails/plain/expired-subscription.php:8
+#, php-format
+msgid ""
+"A subscription belonging to %1$s has expired. Their subscription's details "
+"are as follows:"
+msgstr ""
+"Das Abonnement welches zu %1$s gehört ist abgelaufen. Die Abonnementdetails "
+"lauten wie folgt:"
+
+#: templates/emails/plain/expired-subscription.php:25
+#: templates/emails/plain/subscription-info.php:15
+#, php-format
+msgid "End Date: %s"
+msgstr "Ende Datum: %s"
+
+#: templates/emails/plain/on-hold-subscription.php:8
+#, php-format
+msgid ""
+"A subscription belonging to %1$s has been suspended by the user. Their "
+"subscription's details are as follows:"
+msgstr ""
+"Das Abonnement, welches zu %1$s gehört, wurde kundenseitig beendet. Die "
+"Abonnementdetails lauten wie folgt:"
+
+#: templates/emails/plain/on-hold-subscription.php:19
+#, php-format
+msgid "Last Order: %s"
+msgstr "Letzte Bestellung: %s"
+
+#: templates/emails/plain/on-hold-subscription.php:22
+#, php-format
+msgid "Date Suspended: %s"
+msgstr "Stilllegungsdatum: %s"
+
+#: templates/emails/plain/subscription-info.php:8
+msgid "Subscription Information:"
+msgstr "Abonnement Informationen:"
+
+#: templates/emails/plain/subscription-info.php:10
+#, php-format
+msgid "Subscription: %s"
+msgstr "Anmeldung für Abonnement %s fehlgeschlagen."
+
+#: templates/emails/plain/subscription-info.php:12
+#, php-format
+msgid "Start Date: %s"
+msgstr "Start Datum: %s"
+
+#: templates/emails/plain/subscription-info.php:14
+msgid "When Cancelled"
+msgstr "Auf unbestimmte Zeit"
+
+#: templates/emails/plain/subscription-info.php:16
+#, php-format
+msgid "Price: %s"
+msgstr "Preis: %s"
+
+#: templates/myaccount/view-subscription.php:30
+msgid "Next Payment Date"
+msgstr "Nächstes Zahlungsdatum"
+
+#: templates/single-product/add-to-cart/variable-subscription.php:36
+msgid "Clear"
+msgstr "Leeren"
+
+#: templates/subscription/product-price-fields.php:11
+msgid "Choose the subscription price, billing interval and billing period."
+msgstr ""
+"Wählen Sie den Abo-Preis, das Abrechnungsintervall und den "
+"Abrechnungszeitraum."
+
+#: templates/subscription/product-price-fields.php:42
+msgid "Subscription length"
+msgstr "Abonnement Länge"
+
+#: templates/subscription/product-price-fields.php:45
+msgid "Automatically expire the subscription after this length of time."
+msgstr "Das Abonnement nach Ablauf dieser Zeit automatisch ablaufen."
+
+#: templates/subscription/variation-price-fields.php:34
+msgid ""
+"Automatically expire the subscription after this length of time. This length "
+"is in addition to any free trial or amount of time provided before a "
+"synchronised first renewal date."
+msgstr ""
+"Das Abonnement wird nach Ablauf dieser Zeitspanne automatisch auslaufen. "
+"Diese Länge gilt zusätzlich zu jedem kostenlosen Testzeitraum oder Zeitdauer "
+"vor einem synchronisierten ersten Verlängerungsdatum."
+
+#~ msgid "Trial End"
+#~ msgstr "Trial Ende"
+
+#~ msgid ""
+#~ "Subscriptions will appear here for you to view and manage once purchased "
+#~ "by a customer."
+#~ msgstr "Abonnements werden hier angezeigt und können bearbeitet werden."
+
+#~ msgid "Please enter a date before the next payment."
+#~ msgstr "Bitte gib ein Datum vor der nächsten Zahlung ein."
+
+#~ msgid "One time shipping"
+#~ msgstr "Einmaliger Versand"
+
+#~ msgid ""
+#~ "Enable this to only charge shipping once on the initial order. For this "
+#~ "setting to be enabled the subscription must not have a free trial or a "
+#~ "synced renewal date."
+#~ msgstr ""
+#~ "Aktivieren Sie diese nur einmal auf die erste Bestellung Versandkosten. "
+#~ "Für diese Einstellung aktiviert werden muss das Abonnement keine "
+#~ "kostenlose Testversion oder eine synchronisierte Verlängerungsdatum."
+
+#~ msgid "Manage Roles"
+#~ msgstr "Rollen verwalten"
+
+#~ msgid "Subscriber Default Role"
+#~ msgstr "Abonnent-Standard-Rolle"
+
+#~ msgid ""
+#~ "After a successful subscription, new users will be assigned this role."
+#~ msgstr ""
+#~ "Nach einem erfolgreichen Abonnement werden neue Benutzer dieser Rolle "
+#~ "zugewiesen."
+
+#~ msgid "Inactive Subscriber Role"
+#~ msgstr "Rolle für inaktive Abonnenten"
+
+#~ msgid ""
+#~ "If a subscription is manually cancelled or expires, subscriber will be "
+#~ "assigned this role."
+#~ msgstr ""
+#~ "Wenn ein Abonnement manuell storniert oder abgelaufen ist, wird dem "
+#~ "Abonnenten diese Rolle zugewiesen."
+
+#~ msgid "Customer Suspensions"
+#~ msgstr "Kunden-Unterbrechungen"
+
+#~ msgid "suspensions per billing period."
+#~ msgstr "Unterbrechungen pro Rechnungs-Zeitraum."
+
+#~ msgid ""
+#~ "Set a maximum number of times a customer can suspend their account for "
+#~ "each billing period. eg:- for a value of 3 and a subscription billed "
+#~ "yearly, if the customer has suspended their account 3 times, they will "
+#~ "not be presented with the option to suspend their account until the next "
+#~ "year. Store managers will always be able to suspend an active "
+#~ "subscription. Set this to 0 to turn off the customer suspension feature."
+#~ msgstr ""
+#~ "Legen Sie eine maximale Anzahl fest, wie oft ein Kunde sein Konto für "
+#~ "jede Rechnungsperiode anhalten kann. Wenn Sie z.B. den Wert 3 einsetzen "
+#~ "für ein Abonnement, welches jährlich berechnet wird, so wird dieser "
+#~ "Kunde, nachdem er in diesem Jahr dreimal unterbrochen hat, keine Anzeige/"
+#~ "Option mehr erhalten, ein weiteres Mal zu unterbrechen. Der Shop Manager "
+#~ "ist jedoch immer in der Lage, für diesen Kunden zu unterbrechen, wenn er "
+#~ "dies ein weiteres Mal wünscht. Wenn der Wert auf 0 gesetzt ist, kann "
+#~ "nicht unterbrochen werden."
+
+#~ msgid "The trial period can not exceed: %1s, %2s, %3s or %4s."
+#~ msgstr "Der Testzeitraum kann %1s, %2s, %3s oder %4s nicht überschreiten."
+
+#~ msgid "The trial period can not exceed %s."
+#~ msgstr "Der Testzeitraum kann %s nicht überschreiten."
+
+#~ msgid "Subscription Switch Complete"
+#~ msgstr "Abonnement-Wechsel abgeschlossen"
+
+#~ msgid ""
+#~ "Subscription switch complete emails are sent to the customer when a "
+#~ "subscription is switched successfully."
+#~ msgstr ""
+#~ "E-Mails zum Wechsel eines Abonnements werden an den Kunden geschickt, "
+#~ "wenn ein Abonnement erfolgreich gewechselt wurde."
+
+#~ msgid "Your subscription change is complete"
+#~ msgstr "Die Umstellung Ihres Abonnements ist abgeschlossen"
+
+#~ msgid "Your {blogname} subscription change from {order_date} is complete"
+#~ msgstr ""
+#~ "Ihre {blogname} Abonnement-Änderung vom {order_date} ist abgeschlossen"
+
+#~ msgid "Your subscription change is complete - download your files"
+#~ msgstr ""
+#~ "Ihre Abonnement-Änderung ist abgeschlossen - Laden Sie die Dateien "
+#~ "herunter"
+
+#~ msgid ""
+#~ "Your {blogname} subscription change from {order_date} is complete - "
+#~ "download your files"
+#~ msgstr ""
+#~ "Ihre {blogname} Abonnement-Änderung vom {order_date} ist abgeschlossen - "
+#~ "Sie können jetzt Ihre Dateien herunterladen"
+
+#~ msgid "Subscription Switched"
+#~ msgstr "Abonnement gewechselt"
+
+#~ msgid ""
+#~ "Subscription switched emails are sent when a customer switches a "
+#~ "subscription."
+#~ msgstr ""
+#~ "E-Mails zum Wechsel eines Abonnements werden an den Kunden geschickt wenn "
+#~ "dieser ein Abonnement wechselt."
+
+#~ msgid "[{blogname}] Subscription Switched ({order_number}) - {order_date}"
+#~ msgstr "[{blogname}] Abonnement gewechselt ({order_number}) - {order_date}"
+
+#~ msgid "Limit subscription"
+#~ msgstr "Abonnement beschränken"
+
+#~ msgid ""
+#~ "Only allow a customer to have one subscription to this product. %sLearn "
+#~ "more%s."
+#~ msgstr ""
+#~ "Erlaube Kunden nur ein Abonnement zu diesem Produkt. %sErfahre mehr%s."
+
+#~ msgid "Do not limit"
+#~ msgstr "Nicht begrenzen"
+
+#~ msgid "Limit to one active subscription"
+#~ msgstr "Auf ein aktives Abonnement beschränken"
+
+#~ msgid "Limit to one of any status"
+#~ msgstr "Beschränken auf einen beliebigen Status"
+
+#~ msgid ""
+#~ "You have a subscription to this product. Choosing a new subscription will "
+#~ "replace your existing subscription."
+#~ msgstr ""
+#~ "Sie haben ein Abonnement für diesen Artikel. Wenn Sie ein neues "
+#~ "Abonnement wählen, wird das bestehende Abonnement ersetzt."
+
+#~ msgid "Choose a new subscription."
+#~ msgstr "Wähle einen neues Abonnement."
+
+#~ msgid ""
+#~ "You have already subscribed to this product and it is limited to one per "
+#~ "customer. You can not purchase the product again."
+#~ msgstr ""
+#~ "Sie haben diesen Artikel bereits abonniert und dieser ist begrenzt auf 1 "
+#~ "pro Kunde. Sie können den Artikel nicht erneut kaufen."
+
+#~ msgid ""
+#~ "%1$s Complete payment on %2$sOrder %3$s%4$s to be able to change your "
+#~ "subscription."
+#~ msgstr ""
+#~ "%1$s Bitte die Zahlung für %2$sBestellung %3$s%4$s vervollständigen, um "
+#~ "Ihr Abonnement wechseln zu können."
+
+#~ msgid "Upgrade / Downgrade"
+#~ msgstr "Upgrade oder Downgrade"
+
+#~ msgid "Allow Switching"
+#~ msgstr "Wechsel erlauben"
+
+#~ msgid ""
+#~ "Allow subscribers to switch between subscriptions combined in a grouped "
+#~ "product, different variations of a Variable subscription or don't allow "
+#~ "switching."
+#~ msgstr ""
+#~ "Erlauben Sie Abonnenten das Wechseln zwischen Abonnements, die mit einer "
+#~ "Produkte-Gruppe kombiniert sind, verschiedene Varianten haben oder die "
+#~ "variabel sind, bzw. unterbinden Sie die Möglichkeit solcher Wechsel."
+
+#~ msgid "Never"
+#~ msgstr "Nie"
+
+#~ msgid "Between Subscription Variations"
+#~ msgstr "Zwischen Abonnement-Varianten"
+
+#~ msgid "Between Grouped Subscriptions"
+#~ msgstr "Zwischen gruppierten Abonnements"
+
+#~ msgid "Between Both Variations & Grouped Subscriptions"
+#~ msgstr "Zwischen beiden Varianten & gruppierten Abonnements"
+
+#~ msgid "Prorate Recurring Payment"
+#~ msgstr "Wiederkehrende Zahlung anteilig verrechnen"
+
+#~ msgid ""
+#~ "When switching to a subscription with a different recurring payment or "
+#~ "billing period, should the price paid for the existing billing period be "
+#~ "prorated when switching to the new subscription?"
+#~ msgstr ""
+#~ "Soll bei einem Wechsel auf ein Abonnement mit einer anderen "
+#~ "wiederkehrenden Zahlung oder einem anderen Abrechnungszeitraum der "
+#~ "bereits bezahlte Betrag während des bestehenden Abrechnungszeitraums "
+#~ "anteilig für das neue Abonnement angerechnet und aufgeteilt werden?"
+
+#~ msgid "For Upgrades of Virtual Subscription Products Only"
+#~ msgstr "Nur für Upgrades von virtuellen Abonnement-Produkten"
+
+#~ msgid "For Upgrades of All Subscription Products"
+#~ msgstr "Für Upgrades von allen Abonnement-Produkten"
+
+#~ msgid "For Upgrades & Downgrades of Virtual Subscription Products Only"
+#~ msgstr "Nur für Upgrades und Downgrades von virtuellen Abonnement-Produkten"
+
+#~ msgid "For Upgrades & Downgrades of All Subscription Products"
+#~ msgstr "Für Upgrades und Downgrades von allen Abonnement-Produkten"
+
+#~ msgid "Prorate Sign up Fee"
+#~ msgstr "Einrichtungsgebühr anteilig aufteilen"
+
+#~ msgid ""
+#~ "When switching to a subscription with a sign up fee, you can require the "
+#~ "customer pay only the gap between the existing subscription's sign up fee "
+#~ "and the new subscription's sign up fee (if any)."
+#~ msgstr ""
+#~ "Beim Wechsel auf ein Abonnement mit einer Anmeldegebühr braucht der Kunde "
+#~ "nur die Differenz zwischen der Anmeldegebühr des bestehenden zum neuen "
+#~ "Abonnement zu bezahlen (falls eine Anmeldegebühr existiert)."
+
+#~ msgid "Never (do not charge a sign up fee)"
+#~ msgstr "Nie (keine Einrichtungsgebühr berechnen)"
+
+#~ msgid "Never (charge the full sign up fee)"
+#~ msgstr "Nie (Volle Einrichtungsgebühr verrechnen)"
+
+#~ msgid "Always"
+#~ msgstr "Immer"
+
+#~ msgid "Prorate Subscription Length"
+#~ msgstr "Anteilige Abo-Laufzeit einstellen"
+
+#~ msgid ""
+#~ "When switching to a subscription with a length, you can take into account "
+#~ "the payments already completed by the customer when determining how many "
+#~ "payments the subscriber needs to make for the new subscription."
+#~ msgstr ""
+#~ "Beim Wechsel auf ein Abonnement mit einer vordefinierten Dauer können Sie "
+#~ "bereits getätigte Zahlungen berücksichtigen und dadurch die anfallenden "
+#~ "Restzahlungen für das neue Abonnement neu festlegen."
+
+#~ msgid "For Virtual Subscription Products Only"
+#~ msgstr "Nur für virtuelle Abonnemente"
+
+#~ msgid "For All Subscription Products"
+#~ msgstr "Für alle Abonnemente"
+
+#~ msgid "Switch Button Text"
+#~ msgstr "Wechsel-Button-Text"
+
+#~ msgid ""
+#~ "Customise the text displayed on the button next to the subscription on "
+#~ "the subscriber's account page. The default is \"Switch Subscription\", "
+#~ "but you may wish to change this to \"Upgrade\" or \"Change Subscription\"."
+#~ msgstr ""
+#~ "Passen Sie den Text auf der Schaltfläche neben dem Knopf für Abonnements "
+#~ "im Konto des Abonnenten an. Der Standardwert ist \"Abonnement wechseln\" "
+#~ "Sie können jedoch diesen Text z.B. auf \"Upgrade\" oder \"Abonnement "
+#~ "anpassen\" ändern."
+
+#~ msgid "Upgrade or Downgrade"
+#~ msgstr "Upgrade oder Downgrade"
+
+#~ msgid "Switch order cancelled due to a new switch order being created #%s."
+#~ msgstr ""
+#~ "Wechselbestellung aufgrund einer neuen Wechselbestellung storniert#%s."
+
+#~ msgid "Switch Order"
+#~ msgstr "Bestellung wechseln"
+
+#~ msgid "Switched Subscription"
+#~ msgstr "Gewechseltes Abonnement"
+
+#~ msgid ""
+#~ "Your cart contained an invalid subscription switch request. It has been "
+#~ "removed."
+#~ msgstr ""
+#~ "Ihr Warenkorb enthielt einen ungültigen Tarifwechsel Ihres Abonnements. "
+#~ "Dieses wurde entfernt."
+
+#~ msgid "You can only switch to a subscription product."
+#~ msgstr "Sie können ausschließlich zu einem Abonnementprodukt wechseln."
+
+#~ msgid "We can not find your old subscription item."
+#~ msgstr "Wir können Ihr altes Abonnement nicht finden."
+
+#~ msgid "You can not switch to the same subscription."
+#~ msgstr "Sie können nicht auf dasselbe Abonnement wechseln."
+
+#~ msgid ""
+#~ "You can not switch this subscription. It appears you do not own the "
+#~ "subscription."
+#~ msgstr ""
+#~ "Sie können dieses Abonnement nicht wechseln. Es scheint dass dies nicht "
+#~ "Ihr eigenes Abo ist."
+
+#~ msgid "There was an error locating the switch details."
+#~ msgstr "Es gab einen Fehler beim Feststellen der Wechsel-Details."
+
+#~ msgid "Downgrade"
+#~ msgstr "Downgrade"
+
+#~ msgid "Upgrade"
+#~ msgstr "Aktualisieren"
+
+#~ msgid "Crossgrade"
+#~ msgstr "Crossgrade"
+
+#~ msgid "%1$s %2$s(%3$s)%4$s"
+#~ msgstr "%1$s %2$s(%3$s)%4$s"
+
+#~ msgid "The original subscription item being switched cannot be found."
+#~ msgstr ""
+#~ "Das Abonnement, auf welches ursprünglich gewechselt wurde, kann nicht "
+#~ "gefunden werden."
+
+#~ msgid "The item on the switch order cannot be found."
+#~ msgstr "Der Artikel auf der Wechselbestellung kann nicht gefunden werden."
+
+#~ msgid "Customer switched from: %1$s to %2$s."
+#~ msgstr "Kunde wechselte von: %1$s auf %2$s."
+
+#~ msgid "Failed to update the subscription shipping method."
+#~ msgstr "Die Aktualisierung der Abonnementversandmethode ist fehlgeschlagen."
+
+#~ msgid ""
+#~ "Align the payment date for this subscription to a specific day of the "
+#~ "year. If the date has already taken place this year, the first payment "
+#~ "will be processed in %s. Set the day to 0 to disable payment syncing for "
+#~ "this product."
+#~ msgstr ""
+#~ "Setzen Sie den Zahlungstermin für dieses Abonnement auf einen bestimmten "
+#~ "Tag des Jahres. Wenn das Datum in diesem Jahr bereits stattgefunden hat "
+#~ "wird die erste Zahlung in %s bearbeitet. Stellen Sie den Tag auf 0, um "
+#~ "die Synchronisierung der Zahlung für dieses Produkt zu deaktivieren."
+
+#~ msgid "Renewal & Prorate"
+#~ msgstr "Erneuerung & Prorate"
+
+#~ msgid ""
+#~ "Align subscription renewal to a specific day of the week, month or year. "
+#~ "For example, the first day of the month."
+#~ msgstr ""
+#~ "Synchronisiere das Zahldatum für alle Kunden, die diese Abonnement "
+#~ "gebucht haben, auf einen bestimmten Tag, eine Woche oder einen Monat. Zum "
+#~ "Beispiel den 1. Tag eines Monats. %sWeitere Informationen%s."
+
+#~ msgid "Manual Renewal Payments"
+#~ msgstr "Manuell wiederkehrende Zahlungen"
+
+#~ msgid "Accept Manual Renewals"
+#~ msgstr "Manuell wiederkehrende Zahlungen akzeptieren"
+
+#~ msgid ""
+#~ "With manual renewals, a subscription is put on-hold until customer login "
+#~ "and pay to renew it."
+#~ msgstr ""
+#~ "Mit manuellen Verlängerungen wird ein Abonnement Warteschleife bis zum "
+#~ "Kunden-Login und Zahlen, um es zu erneuern."
+
+#~ msgid "Turn off Automatic Payments"
+#~ msgstr "Automatische Zahlungen ausschalten"
+
+#~ msgid ""
+#~ "If you don't want new subscription purchases to automatically charge "
+#~ "renewal payments, you can turn off automatic payments. Existing automatic "
+#~ "subscriptions will continue to charge customers automatically."
+#~ msgstr ""
+#~ "Wenn du nicht möchtest, dass die Verlängerungszahlungen neu erworbener "
+#~ "Abonnements automatisch abgewickelt werden, kannst du automatische "
+#~ "Zahlungen ausschalten. Existierende automatisierte Abonnements werden den "
+#~ "Kunden weiterhin automatisch Rechnungen erstellen. %sMehr erfahren%s."
+
+#~ msgid "Align Synchronise Renewals"
+#~ msgstr "Ausrichten von Synchronisierungserneuerungen"
+
+#~ msgid "Align Subscription Renewal Day"
+#~ msgstr "Tag für die Abonnement-Verlängerung synchronisieren"
+
+#~ msgid "Prorate First Payment"
+#~ msgstr "Erste Zahlung anteilig berechnen"
+
+#~ msgid ""
+#~ "If a subscription is synchronised to a specific day of the week, month or "
+#~ "year, charge a prorated amount for the subscription at the time of sign "
+#~ "up."
+#~ msgstr ""
+#~ "Falls ein Abonnement auf einen bestimmten Tag, eine Woche, einen Monat "
+#~ "oder ein Jahr synchronisiert ist, buche einen passenden Betrag während "
+#~ "der ersten Buchung ab."
+
+#~ msgid ""
+#~ "Align the payment date for all customers who purchase this subscription "
+#~ "to a specific day of the week or month."
+#~ msgstr ""
+#~ "Setze das Zahlungsdatum für alle Kunden, die diese Abonnement gebucht "
+#~ "haben, auf einen bestimmten Tag, eine Woche oder einen Monat."
+
+#~ msgid "Do not synchronise"
+#~ msgstr "Nicht abgleichen"
+
+#~ msgid "%s each week"
+#~ msgstr "%s jede Woche"
+
+#~ msgid "%s day of the month"
+#~ msgstr "%s Tag des Monats"
+
+#~ msgid "Last day of the month"
+#~ msgstr "Letzter Tag des Monats"
+
+#~ msgid "Today!"
+#~ msgstr "Heute!"
+
+#~ msgid "First payment prorated. Next payment: %s"
+#~ msgstr "Erste Zahlung anteilig sofort. Nächste Zahlung: %s"
+
+#~ msgid "First payment: %s"
+#~ msgstr "Erste Zahlung: %s"
+
+#~ msgid "Guest"
+#~ msgstr "Gast"
+
+#~ msgid "Refund"
+#~ msgstr "Rückerstattung"
+
+#~ msgid "Full"
+#~ msgstr "Voll"
+
+#~ msgid "Capture"
+#~ msgstr "Aufnahme"
+
+#~ msgid "Processing"
+#~ msgstr "Fehler beim Import Verarbeitung. Grund:"
+
+#~ msgid "TEST MODE"
+#~ msgstr "TEST-MODUS"
+
+#~ msgid "Order"
+#~ msgstr "Wählen Sie Ihre Verpackung bestellen."
+
+#~ msgid "Ship to"
+#~ msgstr "Versand"
+
+#~ msgid "Price"
+#~ msgstr "Preisanpassung (%s)"
+
+#~ msgid "Payment Action"
+#~ msgstr "Zahlungsaktion"
+
+#~ msgid "Actions"
+#~ msgstr "Aktionen"
+
+#~ msgid "Date"
+#~ msgstr "Signatur / Titel / Datum:"
+
+#~ msgid "Mark Processing"
+#~ msgstr "Markierung"
+
+#~ msgid "Mark On-Hold"
+#~ msgstr "Markierung anhalten"
+
+#~ msgid "Mark Completed"
+#~ msgstr "Markiert abgeschlossen"
+
+#~ msgid "Charge"
+#~ msgstr "Betrag"
+
+#~ msgid "Balance"
+#~ msgstr "Bilanz"
+
+#~ msgid "Balance Transaction"
+#~ msgstr "Saldo-Transaktion"
+
+#~ msgid "Payment Complete"
+#~ msgstr "Zahlung Erfolgreich"
+
+#~ msgid "Capture Pending"
+#~ msgstr "Aufnahme ausstehend"
+
+#~ msgid "Fully Refunded"
+#~ msgstr "Vollständig zurückerstattet"
+
+#~ msgid "Partially Refunded"
+#~ msgstr "Teilweise zurückerstattet"
+
+#~ msgid "Transaction Successful"
+#~ msgstr "Transaktion erfolgreich"
+
+#~ msgid "Amount"
+#~ msgstr "Betrag / Amount"
+
+#~ msgid "Refunded : "
+#~ msgstr "Rückerstattung:"
+
+#~ msgid "Transaction ID"
+#~ msgstr "Transaktions-ID"
+
+#~ msgid "Stripe Payment"
+#~ msgstr "Stripe Zahlung"
+
+#~ msgid ""
+#~ "Accept credit card payments directly on your website via Stripe payment "
+#~ "gateway."
+#~ msgstr ""
+#~ "Akzeptieren Sie Kreditkartenzahlungen direkt auf Ihrer Website über "
+#~ "Stripe Payment Gateway."
+
+#~ msgid "Stripe provides payment services over 25 countries"
+#~ msgstr "Stripe bietet Zahlungsdienste über 25 Länder an"
+
+#~ msgid "Available Countries"
+#~ msgstr "Verfügbare Länder"
+
+#~ msgid "If you don't have Stripe Account, get it for free easily "
+#~ msgstr "Wenn Sie nicht Stripe Account haben, erhalten Sie es kostenlos"
+
+#~ msgid "Register Now"
+#~ msgstr "Jetzt buchen"
+
+#~ msgid "Get your Access Keys and put it here "
+#~ msgstr "Holen Sie sich Ihre Access Keys und legen Sie es hier"
+
+#~ msgid "Get API Keys"
+#~ msgstr "Get API Keys"
+
+#~ msgid "Stripe TEST MODE Enabled: "
+#~ msgstr "Stripe TEST MODE Aktiviert:"
+
+#~ msgid " Use these "
+#~ msgstr "Ja! Ich werde es für Filter verwenden."
+
+#~ msgid " Test Card Details "
+#~ msgstr "Testkartendetails"
+
+#~ msgid " for Testing."
+#~ msgstr "zum Prüfen."
+
+#~ msgid "Place Order"
+#~ msgstr "Zahlungspflichtig Bestellen"
+
+#~ msgid "Please accept the terms and conditions first"
+#~ msgstr "Bitte akzeptieren Sie zuerst die Allgemeinen Geschäftsbedingungen"
+
+#~ msgid "Please fill in required checkout fields first"
+#~ msgstr "Bitte füllen Sie zuerst die erforderlichen Felder aus"
+
+#~ msgid "Pay"
+#~ msgstr "bezahlen"
+
+#~ msgid "Could not process subscription order this time. Please try again."
+#~ msgstr ""
+#~ "Die Abonnementreihenfolge konnte diesmal nicht verarbeitet werden. Bitte "
+#~ "versuche es erneut."
+
+#~ msgid "Payment Status : "
+#~ msgstr "Zahlungsstatus :"
+
+#~ msgid "Source : "
+#~ msgstr "Quelle"
+
+#~ msgid "Charge Status :"
+#~ msgstr "Ladestatus:"
+
+#~ msgid "Admin declined the payment due to Card Restriction."
+#~ msgstr "Admin hat die Zahlung aufgrund der Karteneinschränkung abgelehnt."
+
+#~ msgid "Seller declined "
+#~ msgstr "Verkäufer lehnte ab"
+
+#~ msgid ""
+#~ "payment due to Card Restriction. Reload and try with some other Cards"
+#~ msgstr ""
+#~ "Zahlung wegen Karte Einschränkung. Wiederholen Sie und versuchen Sie mit "
+#~ "einigen anderen Karten"
+
+#~ msgid "Payment Failed "
+#~ msgstr "Bezahlung fehlgeschlagen"
+
+#~ msgid "Refresh and try again"
+#~ msgstr "Aktualisieren Sie und versuchen Sie es erneut"
+
+#~ msgid "Scheduled Subscription"
+#~ msgstr "Geplante Abonnement"
+
+#~ msgid "Sorry, invalid amount. "
+#~ msgstr "Entschuldigung, ungültiger Betrag."
+
+#~ msgid "Sorry, something wend wrong, Could not find the customer. "
+#~ msgstr ""
+#~ "Entschuldigung, etwas falsch verstanden, konnte den Kunden nicht finden."
+
+#~ msgid "Reason : "
+#~ msgstr "Grund:"
+
+#~ msgid "Amount : "
+#~ msgstr "Betrag :"
+
+#~ msgid "Status : "
+#~ msgstr "Status"
+
+#~ msgid "Transaction ID : "
+#~ msgstr "Transaktions-ID:"
+
+#~ msgid " Status : Failed "
+#~ msgstr "Status: fehlgeschlagen"
+
+#~ msgid "Uncaptured Amount cannot be refunded"
+#~ msgstr "Ungedeckter Betrag kann nicht zurückerstattet werden"
+
+#~ msgid "Capture Status : "
+#~ msgstr "Erfassungsstatus:"
+
+#~ msgid "Charge Status : "
+#~ msgstr "Ladestatus:"
+
+#~ msgid "Access Denied"
+#~ msgstr "Zugriff verweigert"
+
+#~ msgid "Capture Stripe Payment"
+#~ msgstr "Capture Stripe Zahlung"
+
+#~ msgid "Tax"
+#~ msgstr "Aufgaben-Steuer Zahlungsart"
+
+#~ msgid "Shipping"
+#~ msgstr "Drucken von Versandetiketten über DHL -API."
+
+#~ msgid "Discount"
+#~ msgstr "Rabatt:"
+
+#~ msgid "Unable to find shipping method for address."
+#~ msgstr "Kann keine Versandart für Adresse finden."
+
+#~ msgid "Stripe Overview"
+#~ msgstr "Streifenübersicht"
+
+#~ msgid "Enable"
+#~ msgstr "Aktivieren"
+
+#~ msgid "Stripe Overview Page"
+#~ msgstr "Streifenübersicht"
+
+#~ msgid "Stripe Overview "
+#~ msgstr "Streifenübersicht"
+
+#~ msgid "Title"
+#~ msgstr "Geben Sie den Titel für das Feld"
+
+#~ msgid "Enter the title of the checkout which the user can see."
+#~ msgstr "Geben Sie den Titel der Kasse ein, die der Benutzer sehen kann."
+
+#~ msgid "Stripe"
+#~ msgstr "Stripe"
+
+#~ msgid "Description"
+#~ msgstr "Warenbeschreibung für Exporte"
+
+#~ msgid "Description which the user sees during checkout."
+#~ msgstr "Die Beschreibung, die der Benutzer während der Bestellung sieht."
+
+#~ msgid "Secure payment via Stripe."
+#~ msgstr "Sichere Zahlung per Streifen."
+
+#~ msgid "Order Button Text"
+#~ msgstr "Text der Schaltfläche Bestellen"
+
+#~ msgid "Enter the Order Button Text of the payment page."
+#~ msgstr "Geben Sie den Auftragstext Text der Zahlungsseite ein."
+
+#~ msgid "Pay via Stripe"
+#~ msgstr "Mit Stripe zahlen"
+
+#~ msgid "Preferred Cards"
+#~ msgstr "Bevorzugte Karten"
+
+#~ msgid ""
+#~ "Select the card types to display the card logo in the checkout page as "
+#~ "preferred card."
+#~ msgstr ""
+#~ "Wählen Sie die Kartentypen aus, um das Kartenlogo auf der Kassenseite als "
+#~ "bevorzugte Karte anzuzeigen."
+
+#~ msgid "Preferred Locale"
+#~ msgstr "Bevorzugtes Gebietsschema"
+
+#~ msgid "Select the Stripe Checkout language."
+#~ msgstr "Wählen Sie die Stripe Checkout-Sprache."
+
+#~ msgid "Stripe Credentials"
+#~ msgstr "Stripe-Anmeldeinformationen"
+
+#~ msgid "Transaction Mode"
+#~ msgstr "Transaktionsmodus"
+
+#~ msgid "Test Mode"
+#~ msgstr "Test-Modus"
+
+#~ msgid "Live Mode"
+#~ msgstr "Live-Modus"
+
+#~ msgid "Check appropriate Stripe mode is checked in Stripe "
+#~ msgstr ""
+#~ "Überprüfen Sie den entsprechenden Stripe-Modus wird in Stripe überprüft"
+
+#~ msgid "Dashboard"
+#~ msgstr ""
+#~ "Der Lizenzschlüssel für %s ist abgelaufen. Sie können einen "
+#~ "Lizenzschlüssel von Ihrem Konto <a href=\"%s\" target=\"_blank\"> "
+#~ "Dashboard </a> reaktivieren oder zu kaufen."
+
+#~ msgid "Test Secret Key"
+#~ msgstr "Geheimschlüssel testen"
+
+#~ msgid "Enter Stripe Test mode Secret Key."
+#~ msgstr "Geben Sie den Stripe Test Modus Secret Key ein."
+
+#~ msgid "Test Publishable Key"
+#~ msgstr "Veröffentlichbarer Schlüssel testen"
+
+#~ msgid "Enter Stripe Test mode Publishable Key."
+#~ msgstr "Geben Sie den Stripe Test-Modus ein."
+
+#~ msgid "Live Secret Key"
+#~ msgstr "Geheimer Live Schlüssel"
+
+#~ msgid "Enter Stripe Live mode Publishable Key."
+#~ msgstr "Geben Sie den Stripe Live-Modus ein."
+
+#~ msgid "Live Publishable Key"
+#~ msgstr "Veröffentlichbarer Live Schlüssel"
+
+#~ msgid "Stripe Actions"
+#~ msgstr "Streifenaktionen"
+
+#~ msgid "Capture Payment"
+#~ msgstr "Erfassen Sie die Zahlung"
+
+#~ msgid "Capture Payment Immediately"
+#~ msgstr "Erfassen Sie die Bezahlung sofort"
+
+#~ msgid ""
+#~ "Whether or not to immediately capture the charge.Uncaptured charges will "
+#~ "expire in 7 days."
+#~ msgstr ""
+#~ "Ob oder nicht sofort die Ladung zu erfassen.Uncaptured Gebühren laufen in "
+#~ "7 Tagen ab."
+
+#~ msgid "Currency Conversion"
+#~ msgstr "Währungsumrechnung"
+
+#~ msgid "Currency Conversion is made by Google Finance. Please read "
+#~ msgstr "Währungsumrechnung erfolgt durch Google Finance. Bitte lesen Sie"
+
+#~ msgid "Disclaimer"
+#~ msgstr "Haftungsausschluss"
+
+#~ msgid ""
+#~ "Google Conversion differs from Stripe so you may get difference in price."
+#~ msgstr ""
+#~ "Google Conversion unterscheidet sich von Stripe, so dass Sie Unterschied "
+#~ "im Preis bekommen können."
+
+#~ msgid "Conversion description"
+#~ msgstr "Umwandlungsbeschreibung"
+
+#~ msgid ""
+#~ "Please give proper currency conversion alert message to users. Eg:-Like "
+#~ "Conversion charges apply!"
+#~ msgstr ""
+#~ "Bitte geben Sie eine ordnungsgemäße Währung Umwandlung Warnung Nachricht "
+#~ "an Benutzer. ZB: -Like Umwandlungsgebühren gelten!"
+
+#~ msgid "Conversion of currency while payment may apply conversion charges."
+#~ msgstr ""
+#~ "Umrechnung der Währung während der Zahlung kann Umwandlungsgebühren "
+#~ "anwenden."
+
+#~ msgid "Restrict Cards"
+#~ msgstr "Karten einschränken"
+
+#~ msgid "Restrict Cards except Preferred Cards"
+#~ msgstr "Beschränken Sie Karten außer Preferred Cards"
+
+#~ msgid ""
+#~ "If enabling Restrict Cards, the card which all are mentioned in preferred "
+#~ "cards only can allow for transaction."
+#~ msgstr ""
+#~ "Wenn Sie Karten einschränken, kann die Karte, die alle in bevorzugten "
+#~ "Karten erwähnt werden, nur die Transaktion zulassen."
+
+#~ msgid "Email Transaction Receipt"
+#~ msgstr "E-Mail Transaktionsbeleg"
+
+#~ msgid "Enable "
+#~ msgstr "Aktivieren"
+
+#~ msgid ""
+#~ "If enabling Email Transaction Receipt, the transaction receipt will send "
+#~ "as email to the customers by Stripe."
+#~ msgstr ""
+#~ "Wenn Sie den E-Mail-Transaktionsbeleg aktivieren, sendet der "
+#~ "Transaktionsbeleg per E-Mail an die Kunden per Streifen."
+
+#~ msgid "Apple pay"
+#~ msgstr "Apple Pay"
+
+#~ msgid "Apple Pay"
+#~ msgstr "Apple Pay"
+
+#~ msgid "If enabled, an option to accept Apple Pay payment for the Order."
+#~ msgstr ""
+#~ "Wenn aktiviert, eine Option, um Apple Pay Zahlung für die Bestellung zu "
+#~ "akzeptieren."
+
+#~ msgid "Apple Pay on Checkout Page"
+#~ msgstr "Apple Pay on Checkout Seite"
+
+#~ msgid "Enable Apple Pay"
+#~ msgstr "Aktiviere Apple Pay"
+
+#~ msgid "Allows customers to checkout using Apple Pay directly."
+#~ msgstr "Ermöglicht Kunden zur Kasse mit Apple Pay direkt."
+
+#~ msgid "Apple Pay on Cart Page"
+#~ msgstr "Apple Pay on Cart Page"
+
+#~ msgid ""
+#~ "Allows customers to checkout using Apple Pay directly from a cart page."
+#~ msgstr ""
+#~ "Ermöglicht Kunden zur Kasse mit Apple Pay direkt von einer Wagenseite aus."
+
+#~ msgid "Apple Pay Description"
+#~ msgstr "Apple Pay Beschreibung"
+
+#~ msgid "Description which the user sees during Apple Pay."
+#~ msgstr "Beschreibung, die der Benutzer bei Apple Pay sieht."
+
+#~ msgid "Pay via Apple Pay"
+#~ msgstr "Bezahlen Sie über Apple Pay"
+
+#~ msgid "Position of Apple Pay Button"
+#~ msgstr "Position der Apple Pay Button"
+
+#~ msgid "Above"
+#~ msgstr "Über"
+
+#~ msgid "Below"
+#~ msgstr ""
+#~ "Sie können Bewertungen (im CSV-Format) in den Shop mit einer der "
+#~ "folgenden Methoden importieren."
+
+#~ msgid "Select where you want to display the Apple Pay checkout button."
+#~ msgstr ""
+#~ "Wählen Sie aus, wo Sie die Apple Pay Checkout-Schaltfläche anzeigen "
+#~ "möchten."
+
+#~ msgid "Apple Pay Button Color"
+#~ msgstr "Apple Pay Button Farbe"
+
+#~ msgid "Select the Button color that fits your shop theme."
+#~ msgstr "Wählen Sie die Button-Farbe, die zu Ihrem Shop-Thema passt."
+
+#~ msgid "White"
+#~ msgstr "Weiß"
+
+#~ msgid "Black"
+#~ msgstr "Schwarz"
+
+#~ msgid "Apple Pay Button Text"
+#~ msgstr "Apple Pay Button Text"
+
+#~ msgid "Select the Button Text that you want."
+#~ msgstr "Wählen Sie den gewünschten Text aus."
+
+#~ msgid "Buy with Apple Pay"
+#~ msgstr "Mit Apple Pay kaufen"
+
+#~ msgid "Set up Apple Pay"
+#~ msgstr "Einrichten von Apple Pay"
+
+#~ msgid "Apple Pay Seperator"
+#~ msgstr "Apple Pay Seperator"
+
+#~ msgid "Enter the Seperator for Apple Pay"
+#~ msgstr "Geben Sie den Seperator für Apple Pay ein"
+
+#~ msgid "Apple Pay Button Language"
+#~ msgstr "Sprache des Apple-Pay-Buttons"
+
+#~ msgid ""
+#~ "Enter the language for Apple Pay. Default is \"en\" language. <br>( Last "
+#~ "2 codes for the language. <a href=\"http://www.mathguide.de/info/tools/"
+#~ "languagecode.html\" target=\"_blank\">Available Codes</a> )"
+#~ msgstr ""
+#~ "Geben Sie die Sprache für Apple Pay ein. Standard ist \"en\" Sprache. "
+#~ "<br> (Letzte 2 Codes für die Sprache. <a href=\"http://www.mathguide.de/"
+#~ "info/tools/languagecode.html\" target=\"_blank\">Verfügbare Codes</a> )"
+
+#~ msgid "Alipay"
+#~ msgstr "Alipay"
+
+#~ msgid ""
+#~ "If enabled, an option to accept Alipay will show on the checkout modal. "
+#~ "Note: Store currency must be set to USD."
+#~ msgstr ""
+#~ "Wenn aktiviert, wird eine Option, Alipay zu akzeptieren, auf dem Checkout-"
+#~ "Modal angezeigt. Hinweis: Die Währung muss auf USD gesetzt sein."
+
+#~ msgid "Secure payment via Alipay."
+#~ msgstr "Sichere Bezahlung über Alipay."
+
+#~ msgid "Pay via Alipay"
+#~ msgstr "Bezahlung über Alipay"
+
+#~ msgid "Stripe Abilities"
+#~ msgstr "Streifenfähigkeiten"
+
+#~ msgid "Bitcoin Currency"
+#~ msgstr "Bitcoin Währung"
+
+#~ msgid ""
+#~ "If enabled, an option to accept bitcoin will show on the checkout modal. "
+#~ "Note: Store currency must be set to USD."
+#~ msgstr ""
+#~ "Wenn aktiviert, wird eine Option zur Annahme von Bitcoin auf dem Checkout-"
+#~ "Modal angezeigt. Hinweis: Die Währung muss auf USD gesetzt sein."
+
+#~ msgid "Checkout Form description"
+#~ msgstr "Kasse Formularbeschreibung"
+
+#~ msgid ""
+#~ "Please give a description which will be displayed in the checkout form."
+#~ msgstr ""
+#~ "Bitte geben Sie eine Beschreibung an, die im Kassenformular angezeigt "
+#~ "wird."
+
+#~ msgid "Verify Your Email Address"
+#~ msgstr "Überprüfen Sie Ihre E-Mail-Adresse"
+
+#~ msgid "Ask Billing Address in Stripe"
+#~ msgstr "Fragen Sie Billing Address in Stripe"
+
+#~ msgid ""
+#~ "If enabled, the billing address will be asked to fill in Stripe Payment "
+#~ "form."
+#~ msgstr ""
+#~ "Wenn aktiviert, wird die Rechnungsadresse aufgefordert, das Stripe "
+#~ "Payment Formular auszufüllen."
+
+#~ msgid "Display Checkout Logo"
+#~ msgstr "Anzeigen Checkout Logo"
+
+#~ msgid ""
+#~ "If enabled, the logo image provided in the Stripe Checkout Logo will be "
+#~ "displayed in the Stripe Checkout"
+#~ msgstr ""
+#~ "Wenn aktiviert, wird das Logo-Bild, das im Stripe Checkout Logo zur "
+#~ "Verfügung steht, in der Stripe Checkout angezeigt"
+
+#~ msgid "Stripe Checkout Logo"
+#~ msgstr "Stripe Kasse"
+
+#~ msgid "Click the image to Choose a Stripe Checkout Logo"
+#~ msgstr "Klicken Sie auf das Bild, um ein Stripe Checkout Logo auszuwählen"
+
+#~ msgid "Stripe Save Cards"
+#~ msgstr "Stripe Save Karten"
+
+#~ msgid ""
+#~ "If enabled, users will be able to check Remember Me option in Stripe "
+#~ "checkout for future transactions. Card details are saved on Stripe "
+#~ "servers, not on your store."
+#~ msgstr ""
+#~ "Wenn diese Option aktiviert ist, können die Benutzer die Option "
+#~ "\"Erinnerung an mich\" in der Stripe-Prüfung für zukünftige Transaktionen "
+#~ "überprüfen. Kartendetails werden auf Stripe-Servern gespeichert, nicht "
+#~ "auf Ihrem Laden."
+
+#~ msgid "Debugging"
+#~ msgstr "Fehlersuche"
+
+#~ msgid "Enable Logging to save Stripe payment logs into log file."
+#~ msgstr ""
+#~ "Aktivieren Sie die Protokollierung, um Stripe-Zahlungsprotokolle in der "
+#~ "Protokolldatei zu speichern."
+
+#~ msgid "Logging"
+#~ msgstr "Protokollierung"
+
+#~ msgid "Success Log File"
+#~ msgstr "Erfolgsprotokolldatei"
+
+#~ msgid "Failure Log File"
+#~ msgstr "Fehlerprotokolldatei"
+
+#~ msgid ""
+#~ "The license key for %s has expired. You can reactivate or purchase a "
+#~ "license key from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+#~ "a>."
+#~ msgstr ""
+#~ "Der Lizenzschlüssel für %s ist abgelaufen. Sie können einen "
+#~ "Lizenzschlüssel von Ihrem Konto <a href=\"%s\" target=\"_blank\"> "
+#~ "Dashboard </a> reaktivieren oder zu kaufen."
+
+#~ msgid ""
+#~ "The subscription for %s is on-hold. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s ist in der Warteschleife . Sie können das "
+#~ "Abonnement von Ihrem Konto <a href=\"%s\" target=\"_blank\"> Dashboard </"
+#~ "a> reaktivieren."
+
+#~ msgid ""
+#~ "The subscription for %s has been cancelled. You can renew the "
+#~ "subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>. A new license key will be emailed to you after your "
+#~ "order has been completed."
+#~ msgstr ""
+#~ "Das Abonnement für %s wurde abgebrochen. Sie können das Abonnement von "
+#~ "Ihrem Konto <a href=\"%s\" target=\"_blank\"> Dashboard </a> erneuern. "
+#~ "Eine neue Lizenzschlüssel wird Ihnen per E-Mail , sobald Ihre Bestellung "
+#~ "abgeschlossen ist."
+
+#~ msgid ""
+#~ "The subscription for %s has expired. You can reactivate the subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s ist abgelaufen. Sie können das Abonnement von Ihrem "
+#~ "Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
+
+#~ msgid ""
+#~ "The subscription for %s has been suspended. You can reactivate the "
+#~ "subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s wurde ausgesetzt. Sie können das Abonnement von "
+#~ "Ihrem Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> reaktivieren."
+
+#~ msgid ""
+#~ "The subscription for %s is still pending. You can check on the status of "
+#~ "the subscription from your account <a href=\"%s\" target=\"_blank"
+#~ "\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s ist noch anhängig. Sie können von Ihrem Konto <a "
+#~ "href=\"%s\" über den Status des Abonnements überprüfen target=\"_blank"
+#~ "\">Dashboard</a>."
+
+#~ msgid ""
+#~ "The subscription for %s has been placed in the trash and will be deleted "
+#~ "soon. You can purchase a new subscription from your account <a href=\"%s"
+#~ "\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Das Abonnement für %s wurde in den Papierkorb gelegt und wird bald "
+#~ "gelöscht werden. Sie können ein neues Abonnement von Ihrem Konto <a href="
+#~ "\"%s\" target=\"_blank\">Dashboard</a> kaufen."
+
+#~ msgid ""
+#~ "A subscription for %s could not be found. You can purchase a subscription "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Ein Abonnement für %s konnte nicht gefunden werden . Sie können ein "
+#~ "Abonnement von Ihrem Konto <a href=\"%s\" target=\"_blank\">Dashboard</a> "
+#~ "kaufen."
+
+#~ msgid ""
+#~ "A license key for %s could not be found. Maybe you forgot to enter a "
+#~ "license key when setting up %s, or the key was deactivated in your "
+#~ "account. You can reactivate license key at your plugin <a href=\"%s\" "
+#~ "target=\"_blank\">settings page</a>."
+#~ msgstr ""
+#~ "Ein Lizenzschlüssel für %s konnte nicht gefunden werden. Vielleicht "
+#~ "vergessen Sie einen Lizenzschlüssel einzugeben, wenn %s Einrichtung oder "
+#~ "der Schlüssel in Ihrem Konto deaktiviert. Sie können Lizenzschlüssel in "
+#~ "Ihrem Plugin <a href=\"%s\" target=\"_blank\"> Einstellungen </a> "
+#~ "reaktivieren."
+
+#~ msgid ""
+#~ "Download permission for %s has been revoked possibly due to a license key "
+#~ "or subscription expiring. You can reactivate or purchase a license key "
+#~ "from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Download- Berechtigung für %s wurde möglicherweise aufgrund eines "
+#~ "Lizenzschlüssels oder Abonnement Ablaufen widerrufen . Sie können einen "
+#~ "Lizenzschlüssel von Ihrem Konto <a href=\"%s\" target=\"_blank"
+#~ "\">Dashboard</a> reaktivieren oder kaufen."
+
+#~ msgid ""
+#~ "%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+#~ "\">settings page</a> and enter the license key and license email to "
+#~ "activate %s."
+#~ msgstr ""
+#~ "%s wurde nicht aktiviert. Gehen Sie auf die Plugin <a href=\"%s\" target="
+#~ "\"_blank\"> Einstellungen </a> und geben Sie den Lizenzschlüssel und "
+#~ "Lizenz E-Mail an %s aktivieren."
+
+#~ msgid ""
+#~ "You changed the subscription for %s, so you will need to enter your new "
+#~ "API License Key in the settings page. The License Key should have arrived "
+#~ "in your email inbox, if not you can get it by logging into your account "
+#~ "<a href=\"%s\" target=\"_blank\">dashboard</a>."
+#~ msgstr ""
+#~ "Sie verändert das Abonnement für %s , so dass Sie benötigen, um Ihre neue "
+#~ "API- Lizenzschlüssel auf der Einstellungsseite zu gelangen. Der "
+#~ "Lizenzschlüssel sollte in Ihrem E-Mail -Posteingang angekommen , wenn Sie "
+#~ "es nicht , indem Sie sich in Ihrem Konto <a href=\"%s\" target=\"_blank"
+#~ "\">Dashboard</a> erhalten."
+
+#~ msgid "Order Details"
+#~ msgstr "Bestelldaten"
+
+#~ msgid "Transaction Details"
+#~ msgstr "Transaktionsdetails"
+
+#~ msgid "Sign Up Fee Discount"
+#~ msgstr "Rabatt auf die Einrichtungsgebühr"
+
+#~ msgid "Sign Up Fee % Discount"
+#~ msgstr "% Rabatt auf die Einrichtungsgebühr"
+
+#~ msgid ""
+#~ "Sorry, this coupon is only valid for subscription products with a sign-up "
+#~ "fee."
+#~ msgstr ""
+#~ "Sorry, dieser Gutschein ist nur für Abonnemente mit Einrichtungsgebühren "
+#~ "gültig."
+
+#~ msgid "%1$s with %2$s free trial"
+#~ msgstr "%1$s mit %2$s kostenloser Testphase"
+
+#~ msgid "%1$s and a %2$s sign-up fee"
+#~ msgstr "%1$s and a %2$s sign-up fee"
+
+#~ msgid "The %s date must occur after the trial end date."
+#~ msgstr "Das %s Datum muss nach dem Ablauf der Testphase liegen."
+
+#~ msgid "The %s date must occur after the start date."
+#~ msgstr "Das %s Datum muss nach dem Startdatum liegen."
+
+#~ msgid ""
+#~ "Hi there. You have successfully changed your subscription items on %s. "
+#~ "Your new order and subscription details are shown below for your "
+#~ "reference:"
+#~ msgstr ""
+#~ "Ihr Abo-Wechsel auf %s ist erfolgreich abgeschlossen. Hier die Details:"
+
+#~ msgid "View your order: %s"
+#~ msgstr "Bestellung ansehen: %s"
+
+#~ msgid "View your subscription: %s"
+#~ msgstr "Abonnement ansehen: %s"
+
+#~ msgid "Trial End Date"
+#~ msgstr "Testzeitraum Enddatum"
+
+#~ msgid "Choose the subscription price, billing interval and period."
+#~ msgstr "Wählen Sie den Abonnementpreis, Abrechnungsintervall und Dauer."
+
+#~ msgid ""
+#~ "An optional period of time to wait before charging the first recurring "
+#~ "payment. Any sign up fee will still be charged at the outset of the "
+#~ "subscription. %s"
+#~ msgstr ""
+#~ "Eine optionale Warte-Zeitspanne, bevor die erste wiederkehrende Zahlung "
+#~ "berechnet wird. Jede Anmeldegebühr wird zu Beginn des Abonnements "
+#~ "berechnet. %s"
+
+#~ msgid "Sign-up fee (%s)"
+#~ msgstr "Einmal-/Aufnahmegebühr (%s)"
+
+#~ msgid "e.g. 9.90"
+#~ msgstr "z.B. 9,90"
+
+#~ msgid ""
+#~ "Optionally include an amount to be charged at the outset of the "
+#~ "subscription. The sign-up fee will be charged immediately, even if the "
+#~ "product has a free trial or the payment dates are synced."
+#~ msgstr ""
+#~ "Optional: füge einen Betrag als Anmeldegebühr ein. Diese Anmeldegebühr "
+#~ "ist sofort nach Abschluss des Abonnements fällig, auch wenn das "
+#~ "Abonnement über eine Testphase verfügt oder die Zahlungsdaten "
+#~ "synchronisiert werden."
+
+#~ msgid ""
+#~ "Shipping for subscription products is normally charged on the initial "
+#~ "order and all renewal orders. Enable this to only charge shipping once on "
+#~ "the initial order. Note: for this setting to be enabled the subscription "
+#~ "must not have a free trial or a synced renewal date."
+#~ msgstr ""
+#~ "Der Versand wird normalerweise bei der ersten Bestellung und allen "
+#~ "wiederkehrenden Zahlungen berechnet. Aktivieren Sie diese Option, um nur "
+#~ "einmal, bei der ersten Bestellung Versandkosten zu berechnen. Hinweis: "
+#~ "Für die Belastung der Versandkosten bei der Erstbestellung darf das "
+#~ "Produkt über keine Testperiode und kein synchronisiertes "
+#~ "Verlängerungsdatum verfügen."
+
+#~ msgid ""
+#~ "Set a maximum number of times a customer can suspend their account for "
+#~ "each billing period. For example, for a value of 3 and a subscription "
+#~ "billed yearly, if the customer has suspended their account 3 times, they "
+#~ "will not be presented with the option to suspend their account until the "
+#~ "next year. Store managers will always be able to suspend an active "
+#~ "subscription. Set this to 0 to turn off the customer suspension feature "
+#~ "completely."
+#~ msgstr ""
+#~ "Legen Sie eine maximale Anzahl fest, wie oft ein Kunde sein Konto für "
+#~ "jede Rechnungsperiode anhalten kann. Wenn Sie z.B. den Wert 3 einsetzen "
+#~ "für ein Abonnement, welches jährlich berechnet wird, so wird dieser "
+#~ "Kunde, nachdem er in diesem Jahr dreimal unterbrochen hat, keine Anzeige/"
+#~ "Option mehr erhalten, ein weiteres Mal zu unterbrechen. Der Shop Manager "
+#~ "ist jedoch immer in der Lage, für diesen Kunden zu unterbrechen, wenn er "
+#~ "dies ein weiteres Mal wünscht. Wenn der Wert auf 0 gesetzt ist, kann "
+#~ "nicht unterbrochen werden."
+
+#~ msgid "Update the %1$s used for %2$sall%3$s of my active subscriptions"
+#~ msgstr "Update the %1$s used for %2$sall%3$s of my active subscriptions"
+
+#~ msgid ""
+#~ "With manual renewals, a customer's subscription is put on-hold until they "
+#~ "login and pay to renew it."
+#~ msgstr ""
+#~ "Wenn manuelle Verlängerungen aktiviert sind, wird das Abonnement "
+#~ "angehalten bis der Kunde sich einloggt und das Abonnement erneut/manuell "
+#~ "zahlt. %sWeitere Infos%s."
