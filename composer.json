@@ -1,0 +1,14 @@
+{
+  "name": "salient-child",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
+},
+{
+  "name": "xa-woocommerce-subscriptions",
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
+}
